@@ -1,0 +1,106 @@
+﻿# SITE CONFIGURATION
+baseurl: ""
+url: "https://rogoda.github.io"
+language: "pl-pl"
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: >
+   Rafał Rogoda <br/> Blog o programowaniu i rozwoju
+  avatar: assets/img/logo.png
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+  description: "Osobista strona internetowa na której prezentuje swoje umiejętności oraz dzielę się zdobytą wiedzą." # used by search engines
+
+  # Header and footer text
+  header_text: > #two or three lines to describe your site
+    <div ><div class="row"><div class="col-md-4 text-left"><p>&nbsp;&nbsp;&nbsp;&nbsp;Mam na imię <b>Rafał</b> i jestem programistą, a to jest moje miejsce w sieci, na stronie znajdziesz informacje o mnie oraz moich zainteresowaniach i planach. Informacje o ciekawych projektach, które wykonałem, znajdziesz w zakładce portfolio. Zachęcam Cię Drogi Czytelniku do dodawania komentarzy pod wpisami. Chętnie odpowiadam na wiadomości, które możesz przesłać bezpośrednio na maila <b>rogoda0@gmail.com</b></p></div>  </div></div> 
+  header_text_feature_image: assets/img/blog/feature-img.jpeg
+  footer_text: >
+   <a>Można mnie również znaleźć na<a>
+
+  # Icons
+  rss: true  # Make sure you created a feed.xml with feed.xml layout
+  email_address: rogoda0@gmail.com
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: rafal.rogoda
+  flickr:
+  gitlab:
+  github: "Rogoda"
+  google_plus:
+  instagram:
+  keybase:
+  linkedin:  https://www.linkedin.com/in/rafa%C5%82-rogoda-53771990/
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: # "twitter username"
+  vimeo:
+  wordpress:
+  youtube:
+
+  # Scripts / Features 
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: "rrogoda"
+  katex: true # Enable if using math markup
+  portfolio: true
+  search: true
+  tags: true
+  blog: true
+  hobby: true
+  
+  # Localization strings
+  str_follow_on: "Śledź na"
+  str_rss_follow: "RSS"
+  str_email: "Email"
+  str_next_post: "Następny wpis"
+  str_previous_post: "Poprzedni wpis"
+  str_next_page: "Następny"
+  str_previous_page: "Poprzedni"
+  str_continue_reading: "Kontynuuj czytanie"
+  str_javascript_required_disqus: "Proszę włącz JavaScript aby zobaczyć komentarze"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# INTERESTS
+interests: [
+  {title: "Programowanie",
+  url: programowanie,
+  img: /assets/img/interests/programming/feature-img-min.jpeg
+  },
+  {title: "Gra giełdowa",
+  url: gielda,
+  img: /assets/img/interests/market/feature-img-min.jpeg
+  },
+  {title: "Motywacja",
+  url: motywacja,
+  img: /assets/img/interests/motivation/feature-img-min.jpeg
+  }]
+collections:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+#theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
