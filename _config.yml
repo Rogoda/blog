@@ -1,6 +1,6 @@
 ﻿# SITE CONFIGURATION
 baseurl: ""
-url: "https://rogoda.github.io"
+url: "https://rogoda.github.io/blog"
 language: "pl-pl"
 
 # THEME-SPECIFIC CONFIGURATION
