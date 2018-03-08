@@ -1,5 +1,5 @@
 ﻿# SITE CONFIGURATION
-baseurl: "/blog"
+baseurl: "/blog/"
 url: "https://rogoda.github.io/blog/"
 language: "pl-pl"
 
