@@ -1,7 +1,7 @@
 --- 
 layout: page 
 title : Motywacja 
-permalink: /zainteresowania/motywacja/
+permalink: zainteresowania/motywacja
 subtitle: "Nastawienie jest kluczem do sukcesu" 
 feature-img: "assets/img/interests/motivation/feature-img.jpeg"
 hide: true

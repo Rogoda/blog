@@ -1,7 +1,7 @@
 --- 
 layout: bootstrap  
 title : Zainteresowania 
-permalink: /zainteresowania/
+permalink: zainteresowania
 subtitle: "" 
 feature-img: "assets/img/interests/feature-img.jpeg"
 hide: true

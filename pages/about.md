@@ -2,10 +2,10 @@
 layout: page
 title: "O mnie"
 subtitle: "Kilka słów o mnie i moich planach"
-permalink: /omnie/
+permalink: omnie
 feature-img: "assets/img/about/feature-img.jpeg"
 about: "assets/img/about"
----
+--- 
 <div class="container">
     <div class="row text-center">
     <div class="col-md-12">

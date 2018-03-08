@@ -1,7 +1,7 @@
 --- 
 layout: page 
 title : Programowanie 
-permalink: /zainteresowania/programowanie/
+permalink: zainteresowania/programowanie
 subtitle: "Programista gość z kubkiem kawy który siedzi ciągle przed komputerem i coś klika" 
 feature-img: "assets/img/interests/programming/feature-img.jpeg"
 hide: true

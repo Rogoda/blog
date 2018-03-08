@@ -1,7 +1,7 @@
 --- 
 layout: page 
 title : Giełada 
-permalink: /zainteresowania/gielda/
+permalink: zainteresowania/gielda
 subtitle: "Nauka o decydowaniu się" 
 feature-img: "assets/img/interests/market/feature-img.jpeg"
 hide: true
