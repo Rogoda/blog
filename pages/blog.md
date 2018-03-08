@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Blog"
-permalink: "blog"
+permalink: "/"
 hide: true
 ---
  
