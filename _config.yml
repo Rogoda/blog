@@ -81,15 +81,15 @@ paginate_path: "blog/page:num"
 interests: [
   {title: "Programowanie",
   url: programowanie,
-  img: /assets/img/interests/programming/feature-img-min.jpeg
+  img: assets/img/interests/programming/feature-img-min.jpeg
   },
   {title: "Gra giełdowa",
   url: gielda,
-  img: /assets/img/interests/market/feature-img-min.jpeg
+  img: assets/img/interests/market/feature-img-min.jpeg
   },
   {title: "Motywacja",
   url: motywacja,
-  img: /assets/img/interests/motivation/feature-img-min.jpeg
+  img: assets/img/interests/motivation/feature-img-min.jpeg
   }]
 collections:
     output: true
