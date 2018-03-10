@@ -7,7 +7,7 @@
     font-size: 1.2em;
     text-align: center;
     color: $header-desc-text-color;
-    background: $header-desc-background-color no-repeat;
+    background: $header-desc-background-color ;
     background-size: $feature-image-size;
 
     /* --- Responsive --- */
@@ -33,6 +33,7 @@
 }
 
 #main {
+    background-size: 100% 100%;
     background-position: 100% 0px, 0% center, center top;
 }
 
