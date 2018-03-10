@@ -18,16 +18,16 @@
     </a>
 
     <!-- Menu -->
-    <ul>
+    <ul class="barAlign">
         {% if site.theme_settings.blog %}
             {% if page.url == "/" OR page.url == "/2" %}
-                <li class="active">
+                <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.url }}">
                         Blog
                     </a>
                 </li>
                 {% else %}
-                <li>
+                <li class="pageLabelShow">
                     <a class="clear" href="{{ site.url }}">
                         Blog
                     </a>
@@ -37,13 +37,13 @@
         {% for node in site.pages %}
         {% if node.title and node.hide != true %}
             {% if page.url == node.url %}
-                <li class="active">
+                <li class="active pageLabelShow">
                     <a class="clear active" href="{{ node.url | relative_url }}">
                         {{ node.title }}
                     </a>
                 </li>
             {% else %}
-                <li>
+                <li class="pageLabelShow">
                     <a class="clear" href="{{ node.url | relative_url }}">
                         {{ node.title }}
                     </a>
@@ -52,13 +52,20 @@
         {% endif %}
         {% endfor %} 
         {% if site.theme_settings.hobby %}
+                <li>
+                    <div class="hobbyLabelHide hobbyLabelShow">
+                        <b><i>Zainteresowania :</i></b>
+                    </div>
+                </li>
             {% if page.url == "/zainteresowania/" %}
-                <li class="active">
+                <li class="active ">
                     <div class="dropdown">
-                        <a class="clear active" href="{{ site.url }}/zainteresowania">
-                            Zainteresowania <i class="fa fa-caret-down"></i>
-                        </a>
-                        <div class="dropdown-content">
+                        <div class="hobbyCollapse">
+                            <a class="clear active" href="{{ site.url }}/zainteresowania">
+                                Zainteresowania <i class="fa fa-caret-down"></i>
+                            </a>
+                        </div>
+                        <div class="dropdown-content hobbyLabelShow">
                             <a class="clear" href="{{ site.url }}/zainteresowania/programowanie">
                                 Programowanie
                             </a>
@@ -75,10 +82,12 @@
                 {% if page.url == "/zainteresowania/programowanie/" %}
                     <li class="active">
                         <div class="dropdown">
-                            <a class="clear active" href="{{ site.url }}/zainteresowania">
-                                Zainteresowania <i class="fa fa-caret-down"></i>
-                            </a>
-                            <div class="dropdown-content">
+                            <div class="hobbyCollapse">
+                                <a class="clear active" href="{{ site.url }}/zainteresowania">
+                                    Zainteresowania <i class="fa fa-caret-down"></i>
+                                </a>
+                            </div>
+                            <div class="dropdown-content hobbyLabelShow">
                                 <a class="clear active" href="{{ site.url }}/zainteresowania/programowanie">
                                     Programowanie
                                 </a>
@@ -95,10 +104,12 @@
                     {% if page.url == "/zainteresowania/motywacja/" %}
                         <li class="active">
                             <div class="dropdown">
-                                <a class="clear active" href="{{ site.url }}/zainteresowania">
-                                    Zainteresowania <i class="fa fa-caret-down"></i>
-                                </a>
-                                <div class="dropdown-content">
+                                <div class="hobbyCollapse">
+                                    <a class="clear active" href="{{ site.url }}/zainteresowania">
+                                        Zainteresowania <i class="fa fa-caret-down"></i>
+                                    </a>
+                                </div>
+                                <div class="dropdown-content hobbyLabelShow">
                                     <a class="clear" href="{{ site.url }}/zainteresowania/programowanie">
                                         Programowanie
                                     </a>
@@ -115,10 +126,12 @@
                         {% if page.url == "/zainteresowania/gielda/" %}
                             <li class="active">
                                 <div class="dropdown">
-                                    <a class="clear active" href="{{ site.url }}/zainteresowania">
-                                        Zainteresowania <i class="fa fa-caret-down"></i>
-                                    </a>
-                                    <div class="dropdown-content">
+                                    <div class="hobbyCollapse">
+                                        <a class="clear active" href="{{ site.url }}/zainteresowania">
+                                            Zainteresowania <i class="fa fa-caret-down"></i>
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content hobbyLabelShow">
                                         <a class="clear" href="{{ site.url }}/zainteresowania/programowanie">
                                             Programowanie
                                         </a>
@@ -132,12 +145,14 @@
                                 </div>
                             </li>  
                         {% else %}
-                            <li >
+                            <li>
                                 <div class="dropdown">
-                                    <a class="clear" href="{{ site.url }}/zainteresowania">
-                                        Zainteresowania <i class="fa fa-caret-down"></i>
-                                    </a>
-                                    <div class="dropdown-content">
+                                    <div class="hobbyCollapse" >
+                                        <a class="clear " href="{{ site.url }}/zainteresowania">
+                                            Zainteresowania <i class="fa fa-caret-down"></i>
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-content hobbyLabelShow">
                                         <a class="clear" href="{{ site.url }}/zainteresowania/programowanie">
                                             Programowanie
                                         </a>
@@ -157,13 +172,13 @@
         {% endif %}
         {% if site.theme_settings.search %}
             {% if page.url == "/szukaj/" %}
-                <li class="active">
+                <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.url }}/szukaj">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </a>
                 </li>
             {% else %}
-                <li>
+                <li class="pageLabelShow">
                     <a class="clear" href="{{ site.url }}/szukaj">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </a>
@@ -172,13 +187,13 @@
         {% endif %}
         {% if site.theme_settings.tags %}
             {% if page.url == "/tags/" %}
-                <li class="active">
+                <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.url }}/tags">
                         <i class="fa fa-tags" aria-hidden="true"></i>
                     </a>
                 </li>
             {% else %}
-                <li>
+                <li class="pageLabelShow">
                     <a class="clear" href="{{ site.url }}/tags">
                         <i class="fa fa-tags" aria-hidden="true"></i>
                     </a>

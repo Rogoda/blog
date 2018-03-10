@@ -67,6 +67,8 @@
             border: none;
         }
         
+    @media only screen and (min-width: 767px) {
+        
         .dropdown {
             position: relative;
             display: inline-block;
@@ -93,6 +95,44 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
+
+        .hobbyLabelHide{
+            display: none;
+        }
+
+    }
+
+    @media only screen and (max-width: 767px) {
+        .hobbyCollapse {
+            display: none;
+        }
+
+        .barAlign {
+            text-align:center;
+        }
+
+        .pageLabelShow {
+            color:rgb(145, 157, 158);
+            background-color: rgb(207, 233, 240);
+            
+        }
+
+        .hobbyLabelShow {
+            color:rgb(145, 157, 158);
+            background-color: rgb(227, 239, 245);
+            
+        }
+
+        .hobbyLabelShow a{
+            color:rgb(114, 105, 105);
+        }
+
+        .hobbyLabelShow a:hover {color: rgb(128, 128, 252)}
+        
+        .hobbyLabelShow:hover .hobbyLabelShow {
+            display: block;
+        }
+    }
         
     }
 }
