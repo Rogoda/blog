@@ -20,18 +20,26 @@
     <!-- Menu -->
     <ul class="barAlign">
         {% if site.theme_settings.blog %}
-            {% if page.url == "/" OR page.url == "/2" %}
+            {% if page.url == "/" %}
                 <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.baseurl }}/">
                         Blog
                     </a>
                 </li>
                 {% else %}
-                <li class="pageLabelShow">
-                    <a class="clear" href="{{ site.baseurl }}/">
-                        Blog
-                    </a>
-                </li>
+                    {% if page.layout == "post" %}
+                    <li class="active pageLabelShow">
+                        <a class="clear active" href="{{ site.baseurl }}/">
+                            Blog
+                        </a>
+                    </li>
+                    {% else %}
+                    <li class="pageLabelShow">
+                        <a class="clear" href="{{ site.baseurl }}/">
+                            Blog
+                        </a>
+                    </li>
+                {% endif %}
             {% endif %}
         {% endif %} 
         {% for node in site.pages %}
@@ -57,7 +65,7 @@
                         <b><i>Zainteresowania :</i></b>
                     </div>
                 </li>
-            {% if page.url == "/zainteresowania/" %}
+            {% if page.url == "/zainteresowania" %}
                 <li class="active ">
                     <div class="dropdown">
                         <div class="hobbyCollapse">
@@ -79,7 +87,7 @@
                     </div>
                 </li>
             {% else %}
-                {% if page.url == "/zainteresowania/programowanie/" %}
+                {% if page.url == "/zainteresowania/programowanie" %}
                     <li class="active">
                         <div class="dropdown">
                             <div class="hobbyCollapse">
@@ -101,7 +109,7 @@
                         </div>
                     </li>  
                 {% else %}
-                    {% if page.url == "/zainteresowania/motywacja/" %}
+                    {% if page.url == "/zainteresowania/motywacja" %}
                         <li class="active">
                             <div class="dropdown">
                                 <div class="hobbyCollapse">
@@ -123,7 +131,7 @@
                             </div>
                         </li>  
                     {% else %}
-                        {% if page.url == "/zainteresowania/gielda/" %}
+                        {% if page.url == "/zainteresowania/gielda" %}
                             <li class="active">
                                 <div class="dropdown">
                                     <div class="hobbyCollapse">
@@ -171,7 +179,7 @@
             {% endif %}           
         {% endif %}
         {% if site.theme_settings.search %}
-            {% if page.url == "/szukaj/" %}
+            {% if page.url == "/szukaj" %}
                 <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.baseurl }}/szukaj">
                         <i class="fa fa-search" aria-hidden="true"></i>
@@ -186,7 +194,7 @@
             {% endif %}
         {% endif %}
         {% if site.theme_settings.tags %}
-            {% if page.url == "/tags/" %}
+            {% if page.url == "/tags" %}
                 <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.baseurl }}/tags">
                         <i class="fa fa-tags" aria-hidden="true"></i>
