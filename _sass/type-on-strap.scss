@@ -15,9 +15,13 @@
 @import 'layouts/page';
 @import 'layouts/tags';
 @import 'layouts/search';
-@import 'layouts/portfolio';
 
 // Includes
 @import 'includes/footer';
 @import 'includes/post_nav';
 @import 'includes/navbar';
+
+//Bootstrap
+@import "bootswatch/dist/darkly/variables";
+@import "bootstrap/scss/bootstrap";
+@import "bootswatch/dist/darkly/bootswatch";

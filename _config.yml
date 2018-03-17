@@ -16,10 +16,10 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-    <div ><div class="row"><div class="col-md-4 text-left"><p>&nbsp;&nbsp;&nbsp;&nbsp;Mam na imię <b>Rafał</b> i jestem programistą, a to jest moje miejsce w sieci, na stronie znajdziesz informacje o mnie oraz moich zainteresowaniach i planach. Informacje o ciekawych projektach, które wykonałem, znajdziesz w zakładce portfolio. Zachęcam Cię Drogi Czytelniku do dodawania komentarzy pod wpisami. Chętnie odpowiadam na wiadomości, które możesz przesłać bezpośrednio na maila <b>rogoda0@gmail.com</b></p></div>  </div></div> 
+    <div ><div class="row"><div ><p>&nbsp;&nbsp;&nbsp;&nbsp;Mam na imię <b>Rafał</b> i jestem programistą, a to jest moje miejsce w sieci, na stronie znajdziesz informacje o mnie oraz moich zainteresowaniach i planach. Informacje o ciekawych projektach, które wykonałem, znajdziesz w zakładce portfolio. Zachęcam Cię Drogi Czytelniku do dodawania komentarzy pod wpisami. Chętnie odpowiadam na wiadomości, które możesz przesłać bezpośrednio na maila <b>rogoda0@gmail.com</b></p></div>  </div></div> 
   header_text_feature_image: assets/img/blog/feature-img.jpeg
   footer_text: >
-   <a>Można mnie również znaleźć na<a>
+   <font class="text-success">Można mnie również znaleźć na<font>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout

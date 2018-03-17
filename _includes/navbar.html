@@ -23,20 +23,20 @@
             {% if page.url == "/" %}
                 <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.baseurl }}/">
-                        Blog
+                        <b>Blog</b>
                     </a>
                 </li>
                 {% else %}
                     {% if page.layout == "post" %}
                     <li class="active pageLabelShow">
                         <a class="clear active" href="{{ site.baseurl }}/">
-                            Blog
+                            <b>Blog</b>
                         </a>
                     </li>
                     {% else %}
                     <li class="pageLabelShow">
                         <a class="clear" href="{{ site.baseurl }}/">
-                            Blog
+                            <b>Blog</b>
                         </a>
                     </li>
                 {% endif %}
@@ -47,148 +47,29 @@
             {% if page.url == node.url %}
                 <li class="active pageLabelShow">
                     <a class="clear active" href="{{ node.url | relative_url }}">
-                        {{ node.title }}
+                        <b>{{ node.title }}</b>
                     </a>
                 </li>
             {% else %}
                 <li class="pageLabelShow">
                     <a class="clear" href="{{ node.url | relative_url }}">
-                        {{ node.title }}
+                        <b>{{ node.title }}</b>
                     </a>
                 </li>
             {% endif %}
         {% endif %}
         {% endfor %} 
-        {% if site.theme_settings.hobby %}
-                <li>
-                    <div class="hobbyLabelHide hobbyLabelShow">
-                        <b><i>Zainteresowania :</i></b>
-                    </div>
-                </li>
-            {% if page.url == "/zainteresowania" %}
-                <li class="active ">
-                    <div class="dropdown">
-                        <div class="hobbyCollapse">
-                            <a class="clear active" href="{{ site.baseurl }}/zainteresowania">
-                                Zainteresowania <i class="fa fa-caret-down"></i>
-                            </a>
-                        </div>
-                        <div class="dropdown-content hobbyLabelShow">
-                            <a class="clear" href="{{ site.baseurl }}/zainteresowania/programowanie">
-                                Programowanie
-                            </a>
-                            <a class="clear" href="{{ site.baseurl }}/zainteresowania/motywacja">
-                                Motywacja
-                            </a>
-                            <a class="clear" href="{{ site.baseurl }}/zainteresowania/gielda">
-                                Gra giełdowa
-                            </a>
-                        </div>
-                    </div>
-                </li>
-            {% else %}
-                {% if page.url == "/zainteresowania/programowanie" %}
-                    <li class="active">
-                        <div class="dropdown">
-                            <div class="hobbyCollapse">
-                                <a class="clear active" href="{{ site.baseurl }}/zainteresowania">
-                                    Zainteresowania <i class="fa fa-caret-down"></i>
-                                </a>
-                            </div>
-                            <div class="dropdown-content hobbyLabelShow">
-                                <a class="clear active" href="{{ site.baseurl }}/zainteresowania/programowanie">
-                                    Programowanie
-                                </a>
-                                <a class="clear" href="{{ site.baseurl }}/zainteresowania/motywacja">
-                                    Motywacja
-                                </a>
-                                <a class="clear" href="{{ site.baseurl }}/zainteresowania/gielda">
-                                    Gra giełdowa
-                                </a>
-                            </div>
-                        </div>
-                    </li>  
-                {% else %}
-                    {% if page.url == "/zainteresowania/motywacja" %}
-                        <li class="active">
-                            <div class="dropdown">
-                                <div class="hobbyCollapse">
-                                    <a class="clear active" href="{{ site.baseurl }}/zainteresowania">
-                                        Zainteresowania <i class="fa fa-caret-down"></i>
-                                    </a>
-                                </div>
-                                <div class="dropdown-content hobbyLabelShow">
-                                    <a class="clear" href="{{ site.baseurl }}/zainteresowania/programowanie">
-                                        Programowanie
-                                    </a>
-                                    <a class="clear active" href="{{ site.baseurl }}/zainteresowania/motywacja">
-                                        Motywacja
-                                    </a>
-                                    <a class="clear" href="{{ site.baseurl }}/zainteresowania/gielda">
-                                        Gra giełdowa
-                                    </a>
-                                </div>
-                            </div>
-                        </li>  
-                    {% else %}
-                        {% if page.url == "/zainteresowania/gielda" %}
-                            <li class="active">
-                                <div class="dropdown">
-                                    <div class="hobbyCollapse">
-                                        <a class="clear active" href="{{ site.baseurl }}/zainteresowania">
-                                            Zainteresowania <i class="fa fa-caret-down"></i>
-                                        </a>
-                                    </div>
-                                    <div class="dropdown-content hobbyLabelShow">
-                                        <a class="clear" href="{{ site.baseurl }}/zainteresowania/programowanie">
-                                            Programowanie
-                                        </a>
-                                        <a class="clear" href="{{ site.baseurl }}/zainteresowania/motywacja">
-                                            Motywacja
-                                        </a>
-                                        <a class="clear active" href="{{ site.baseurl }}/zainteresowania/gielda">
-                                            Gra giełdowa
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>  
-                        {% else %}
-                            <li>
-                                <div class="dropdown">
-                                    <div class="hobbyCollapse" >
-                                        <a class="clear " href="{{ site.baseurl }}/zainteresowania">
-                                            Zainteresowania <i class="fa fa-caret-down"></i>
-                                        </a>
-                                    </div>
-                                    <div class="dropdown-content hobbyLabelShow">
-                                        <a class="clear" href="{{ site.baseurl }}/zainteresowania/programowanie">
-                                            Programowanie
-                                        </a>
-                                        <a class="clear" href="{{ site.baseurl }}/zainteresowania/motywacja">
-                                            Motywacja
-                                        </a>
-                                        <a class="clear" href="{{ site.baseurl }}/zainteresowania/gielda">
-                                            Gra giełdowa
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>              
-                        {% endif %}           
-                    {% endif %}           
-                {% endif %}           
-            {% endif %}           
-        {% endif %}
         {% if site.theme_settings.search %}
             {% if page.url == "/szukaj" %}
                 <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.baseurl }}/szukaj">
-                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <b><i class="fa fa-search" aria-hidden="true"></i></b>
                     </a>
                 </li>
             {% else %}
                 <li class="pageLabelShow">
                     <a class="clear" href="{{ site.baseurl }}/szukaj">
-                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <b><i class="fa fa-search" aria-hidden="true"></i></b>
                     </a>
                 </li>
             {% endif %}
@@ -197,13 +78,13 @@
             {% if page.url == "/tags" %}
                 <li class="active pageLabelShow">
                     <a class="clear active" href="{{ site.baseurl }}/tags">
-                        <i class="fa fa-tags" aria-hidden="true"></i>
+                        <b><i class="fa fa-tags" aria-hidden="true"></i></b>
                     </a>
                 </li>
             {% else %}
                 <li class="pageLabelShow">
                     <a class="clear" href="{{ site.baseurl }}/tags">
-                        <i class="fa fa-tags" aria-hidden="true"></i>
+                        <b><i class="fa fa-tags" aria-hidden="true"></i></b>
                     </a>
                 </li>
             {% endif %}

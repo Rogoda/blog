@@ -44,7 +44,7 @@ a.button {
 
 .body-link {
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
         color: darken($link-color, 15%);
     }
 }
@@ -52,7 +52,7 @@ a.button {
 .post-link {
     &:hover {
         text-decoration: none;
-        color: lighten($link-color, 10%);
+        color: $link-color;
     }
 }
 
@@ -69,3 +69,31 @@ a.button {
 .right {
     float: right;
 }
+
+//collapse panel
+.fancy-collapse-panel .panel-default > .card-header {
+    padding: 0;
+    
+    }
+    .fancy-collapse-panel .card-header a {
+    padding: 12px 35px 12px 15px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    }
+    .fancy-collapse-panel .card-header a:after {
+    font-family: "FontAwesome";
+    content: "\f147";
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    top: 50%;
+    line-height: 1;
+    margin-top: -10px;
+    }
+    
+    .fancy-collapse-panel .card-header a.collapsed:after {
+    content: "\f196";
+    }
