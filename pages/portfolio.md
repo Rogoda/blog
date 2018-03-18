@@ -11,7 +11,7 @@ hide: false
   <div class="container">
     <div class="row">
       <div class="col-md-12 border-secondary text-center">
-        <h1 class="lead align-items-center align-self-center text-success" style="font-size: 40px;"><b>Kilka projektów o których warto wspomnieć <br><br></b></h1>
+        <h1 class="lead align-items-center align-self-center text-success" style="font-size: 40px;"><b>Kilka projektów, o których warto wspomnieć<br><br></b></h1>
       </div>
     </div>
   </div>
@@ -27,7 +27,7 @@ hide: false
     </div>
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="fancy-collapse-panel card-body">
-        Projekt zakładał użycie ASP.NET MVC oraz wykorzystanie Dependency Injection (Ninject) oraz ORM (EntityFramework) postanowiłem też, że projekt będzie pozwalał na autentykację, czyli logowanie i rejestracje użytkownika, dzięki której będzie mógł dodawać nieanonimowe komentarze. Ważnym aspektem projektu była treść, która miała zachęcać pracodawcę do współpracy, dlatego postanowiłem, że projekt będzie przedstawiał informacje o mnie.
+        Projekt zakładał użycie ASP.NET MVC oraz wykorzystanie Dependency Injection (Ninject) oraz ORM (EntityFramework) postanowiłem też, że projekt będzie pozwalał na autentykację, czyli logowanie i rejestracje użytkownika, dzięki której będzie można dodawać nieanonimowe komentarze. Ważnym aspektem projektu była treść, która miała zachęcać pracodawcę do współpracy, dlatego postanowiłem, że projekt będzie przedstawiał informacje o mnie.
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@ hide: false
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="fancy-collapse-panel card-body">
-        Projekt zakładał napisanie aplikacji w języku C# z wykorzystaniem WPF oraz DirectX. W projekcie jest możliwość przemieszczania się po trójwymiarowym pomieszczeniu oraz ustawiania w nim trójwymiarowych mebli. Wspomniane meble można wybrać z bocznego panelu i dowolnie rozmieścić w dostępnej przestrzeni 3d.
+        Projekt zakładał napisanie aplikacji w języku C# z wykorzystaniem WPF oraz DirectX. Aplikacja pozwalała przemieszczać się po trójwymiarowym pomieszczeniu oraz rozmieszczanie w nim trójwymiarowych mebli. Wspomniane meble można wybrać z bocznego panelu i dowolnie rozmieścić w dostępnej przestrzeni 3d.
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@ hide: false
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="fancy-collapse-panel card-body">
-        W grupie 3 programistów stworzyliśmy aplikację na Androida napisaną w języku Java pobierającą ze strony https://openweathermap.org/ dane pogodowe dla podanej przez użytkownika lokalizacji oraz wyświetlającą dane w przyjaznej dla użytkownika aplikacji, program korzystał z wyszukiwania głosowego i zapisywał dane dotyczące ostatniej lokalizacji.
+        W grupie 3 programistów stworzyliśmy aplikację na Androida napisaną w języku Java pobierającą ze strony https://openweathermap.org/ dane pogodowe dla podanej przez użytkownika lokalizacji oraz wyświetlającą dane w łatwej w użytku aplikacji, program korzystał z wyszukiwania głosowego i zapisywał dane dotyczące ostatniej lokalizacji.
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@ hide: false
     </div>
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
       <div class="fancy-collapse-panel card-body">
-        Projekt aplikacji pozwalającej na swobodne zarządzanie rozmieszczeniem polików w systemie, podgląd plików tekstowych oraz obrazów. W późniejszym czasie funkcjonalność aplikacji rozszerzyłem o możliwość szybkiej edycji zarówno plików tekstowych, jak i obrazów. Program posiadał również funkcjonalność pozwalającą na rozmieszczenie na ekranie, za pomocą jednego przycisku, wszystkich otwartych okien tak by się nie pokrywały. Wykorzystywane technologie w tym projekcie to C# oraz WPF.
+        Projekt aplikacji pozwalającej na swobodne zarządzanie plikami w systemie, podgląd plików tekstowych oraz obrazów. W późniejszym czasie funkcjonalność aplikacji rozszerzyłem o możliwość szybkiej edycji zarówno plików tekstowych, jak i obrazów. Program posiadał również funkcjonalność pozwalającą na rozmieszczenie na ekranie, za pomocą jednego przycisku, wszystkich otwartych okien tak by się nie pokrywały. Wykorzystywane technologie w tym projekcie to C# oraz WPF.
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@ hide: false
     </div>
     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
       <div class="fancy-collapse-panel card-body">
-        Projekt wykonywany wspólnie z innym programistą zakładał stworzenie nadajnika pozwalającego na nadawanie informacji tekstowej, która była następnie konwertowana na plik dźwiękowy w alfabecie Morse'a i nadanie takiego dźwięku falami radiowymi z wykorzystaniem mikrokomputera Raspberry Pi oraz języka C++.
+        Projekt wykonywany wspólnie z innym programistą zakładał stworzenie nadajnika, pozwalającego na nadawanie dowolnej informacji tekstowej, wykorzystując fale radiowe. W tym celu został stworzony generator ścieżki dźwiękowej generujący wiadomość zakodowaną alfabetem Morse'a ze wskazanego pliku tekstowego. Plik dźwiękowy był nadawany falami radiowymi z wykorzystaniem mikrokomputera Raspberry Pi, generator został napisany w języku C++.
       </div>
     </div>
   </div>
@@ -111,7 +111,7 @@ hide: false
     </div>
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
       <div class="fancy-collapse-panel card-body">
-        Projekt zakładał instalację oraz konfigurację wewnętrznego systemu kontroli wersji GIT i został wykonany, oraz jest hostowany na systemie Linux Fedora i miał na celu pozwolenie wszystkim programistą pracującym w pewnej organizacji na bezpieczne korzystanie z systemu kontroli wersji.
+        Projekt zakładał instalację oraz konfigurację wewnętrznego systemu kontroli wersji GIT i został wykonany, oraz jest hostowany na systemie Linux Fedora i miał na celu pozwolenie wszystkim programistom pracującym w pewnej organizacji na bezpieczne korzystanie z systemu kontroli wersji.
       </div>
     </div>
   </div>

@@ -12,18 +12,18 @@ theme_settings:
   avatar: assets/img/LOGO.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "Osobista strona internetowa na której prezentuje swoje umiejętności oraz dzielę się zdobytą wiedzą." # used by search engines
+  description: "Osobista strona internetowa, na której prezentuje swoje umiejętności oraz dzielę się zdobytą wiedzą." # used by search engines
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-    <div ><div class="row"><div ><p>&nbsp;&nbsp;&nbsp;&nbsp;Mam na imię <b>Rafał</b> i jestem programistą, a to jest moje miejsce w sieci, na stronie znajdziesz informacje o mnie oraz moich zainteresowaniach i planach. Informacje o ciekawych projektach, które wykonałem, znajdziesz w zakładce portfolio. Zachęcam Cię Drogi Czytelniku do dodawania komentarzy pod wpisami. Chętnie odpowiadam na wiadomości, które możesz przesłać bezpośrednio na maila <b>rogoda0@gmail.com</b></p></div>  </div></div> 
+    <div ><div class="row"><div ><p>&nbsp;&nbsp;&nbsp;&nbsp;Mam na imię <b>Rafał</b> i jestem programistą, a to jest moje miejsce w sieci. Na stronie znajdziesz informacje o mnie oraz moich zainteresowaniach i planach. Informacje o najciekawszych projektach, które wykonałem, znajdziesz w zakładce portfolio. Zachęcam Cię Drogi Czytelniku do dodawania komentarzy pod wpisami. Chętnie odpowiadam na wiadomości, które możesz przesłać bezpośrednio na maila <b>rafal.rogoda@gmail.com</b></p></div>  </div></div> 
   header_text_feature_image: assets/img/blog/feature-img.jpeg
   footer_text: >
    <font class="text-success">Można mnie również znaleźć na<font>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: rogoda0@gmail.com
+  email_address: rafal.rogoda@gmail.com
   behance:
   bitbucket:
   dribbble:
