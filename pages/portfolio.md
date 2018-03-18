@@ -25,12 +25,12 @@ hide: false
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingOne">
       <div class="mb-0">
-        <a class="text-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h4>
+        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h4>
           Portfolio ASP.NET
         </h4></a>
       </div>
     </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="fancy-collapse-panel card-body">
         Projekt zakładał użycie ASP.NET MVC oraz wykorzystanie Dependency Injection (Ninject) oraz ORM (EntityFramework) postanowiłem też, że projekt będzie pozwalał na autentykację, czyli logowanie i rejestracje użytkownika, dzięki której będzie można dodawać nieanonimowe komentarze. Ważnym aspektem projektu była treść, która miała zachęcać pracodawcę do współpracy, dlatego postanowiłem, że projekt będzie przedstawiał informacje o mnie.
       </div>
