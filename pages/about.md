@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "O mnie"
-subtitle: "Kilka słów o mnie i moich planach"
+subtitle: "<br><br>"
 permalink: omnie
 feature-img: "assets/img/about/feature-img.jpeg"
 about: "assets/img/about"
@@ -11,7 +11,7 @@ about: "assets/img/about"
 <div class="container">
     <div class="row text-center">
     <div class="col-md-12">
-        <h1 class="text-success">Kilka słów o mnie</h1>
+        <h1 class="text-success"></h1>
         <p class="base-font-size">Mam na imię Rafał Rogoda i moją pasją jest programowanie oraz wszystko, co z tym związane, na przykład historia branży IT. Całkiem nieźle programować nauczyłem się już w 2 klasie technikum i od tamtej pory byłem już na 100% pewny, że chcę być programistą. W przyszłości chciałbym zarządzać zespołem programistów, ale to może za kilka lat. O moich zainteresowaniach możesz przeczytać tutaj: <a href="{{ site.baseurl }}/zainteresowania/programowanie" class="" data-keyboard="true">Programowanie,</a> <a href="{{ site.baseurl }}/zainteresowania/motywacja" class="">Motywacja,</a> <a href="{{ site.baseurl }}/zainteresowania/gielda" class="">Gra na giełdzie</a> </p>
         <div class="">
         <br>
@@ -41,7 +41,7 @@ about: "assets/img/about"
                 <img class="img-fluid img-rounded" src="{{ site.baseurl }}/{{ page.about }}/windows10.png"> </div>
             </div>
             <p class="lead text-center"><h4 class="text-success">Przyszłość</h4> </p>
-            <p class="">Przyszłość programowania jest w rękach osób jak ja i Ty drogi czytelniku, nie ma na co czekać, do dzieła.</p>
+            <p class="base-font-size">Przyszłość programowania jest w rękach osób jak ja i Ty drogi czytelniku, nie ma na co czekać, do dzieła.</p>
             </div>
         </div>
         </div>

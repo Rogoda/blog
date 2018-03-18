@@ -2,13 +2,13 @@
 baseurl: ""
 url: "rrogoda.pl"
 language: "pl-pl"
-description: "Osobista strona internetowa na której prezentuje swoje umiejętności oraz dzielę się zdobytą wiedzą." # used by search engines
+description: "Osobista strona internetowa, na której prezentuje swoje umiejętności oraz dzielę się zdobytą wiedzą." # used by search engines
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: >
-   Rafał Rogoda <br/> Blog o programowaniu i rozwoju
+
   avatar: assets/img/LOGO.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -16,10 +16,10 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-    <div ><div class="row"><div ><p>&nbsp;&nbsp;&nbsp;&nbsp;Mam na imię <b>Rafał</b> i jestem programistą, a to jest moje miejsce w sieci. Na stronie znajdziesz informacje o mnie oraz moich zainteresowaniach i planach. Informacje o najciekawszych projektach, które wykonałem, znajdziesz w zakładce portfolio. Zachęcam Cię Drogi Czytelniku do dodawania komentarzy pod wpisami. Chętnie odpowiadam na wiadomości, które możesz przesłać bezpośrednio na maila <b>rafal.rogoda@gmail.com</b></p></div>  </div></div> 
+    <div><br><br><br><br><br><br></div> 
   header_text_feature_image: assets/img/blog/feature-img.jpeg
   footer_text: >
-   <p class="font-footer text-success">Można mnie również znaleźć na</p>
+   <p class="font-footer text-success">Można mnie również znaleźć na:</p>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -65,7 +65,7 @@ theme_settings:
   str_next_page: "Następny"
   str_previous_page: "Poprzedni"
   str_continue_reading: "Kontynuuj czytanie"
-  str_javascript_required_disqus: "Proszę włącz JavaScript aby zobaczyć komentarze"
+  str_javascript_required_disqus: "Proszę, włącz JavaScript, aby zobaczyć komentarze"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"

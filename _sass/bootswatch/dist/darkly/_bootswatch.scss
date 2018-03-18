@@ -185,14 +185,23 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lato:400,700,400italic"
   }
 }
 
-.font-nav-option {
-  font-size: $font-size;
-}
+@media screen and (max-width: 850px) {
 
-.font-footer {
-  font-size: $font-size-footer;
-}
+  .font-nav-option {
+    font-size: $font-size;
+  }
+  
+  .font-footer {
+    font-size: $font-size-footer;
+  }
 
+}
 .base-font-size {
   font-size: $font-size-base;
+}
+
+@media (max-width: 600px) {
+  .base-font-size {
+    font-size: $font-size-footer;
+  }
 }

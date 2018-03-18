@@ -1,21 +1,12 @@
 --- 
 layout: page 
 title : Portfolio 
+subtitle: "<br><br>"
 permalink: portfolio
-subtitle: "Projekty nad którymi pracowałem" 
 feature-img: "assets/img/portfolio/feature-img.jpeg"
 hide: false
 ---
-
 <div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 border-secondary text-center">
-        <h1 class="lead align-items-center align-self-center text-success" style="font-size: 40px;"><b>Kilka projektów, o których warto wspomnieć<br><br></b></h1>
-      </div>
-    </div>
-  </div>
-</div>
  <div id="accordion">
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingOne">
