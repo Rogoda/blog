@@ -19,7 +19,7 @@ theme_settings:
     <div ><div class="row"><div ><p>&nbsp;&nbsp;&nbsp;&nbsp;Mam na imię <b>Rafał</b> i jestem programistą, a to jest moje miejsce w sieci. Na stronie znajdziesz informacje o mnie oraz moich zainteresowaniach i planach. Informacje o najciekawszych projektach, które wykonałem, znajdziesz w zakładce portfolio. Zachęcam Cię Drogi Czytelniku do dodawania komentarzy pod wpisami. Chętnie odpowiadam na wiadomości, które możesz przesłać bezpośrednio na maila <b>rafal.rogoda@gmail.com</b></p></div>  </div></div> 
   header_text_feature_image: assets/img/blog/feature-img.jpeg
   footer_text: >
-   <font class="text-success">Można mnie również znaleźć na<font>
+   <p class="font-footer text-success">Można mnie również znaleźć na</p>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout

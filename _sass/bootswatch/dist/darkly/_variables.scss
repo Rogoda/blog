@@ -54,11 +54,13 @@ $link-color:                $success !default;
 // Fonts
 $font-family-main: 'Fira Mono', sans-serif;
 $font-family-headings: 'Fira Mono', sans-serif;
-$font-size: 1.25em;
+$font-size: 1.25rem;
 $font-family-sans-serif:      'Fira Mono', sans-serif;
 //$font-family-sans-serif:      "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$font-size-base:              0.9375rem !default;
+$font-size-base:              0.9375rem;
+
+$font-size-footer:            1.05rem;
 
 // Tables
 
