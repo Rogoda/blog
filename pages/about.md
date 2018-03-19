@@ -12,7 +12,7 @@ about: "assets/img/about"
     <div class="row text-center">
     <div class="col-md-12">
         <h1 class="text-success"></h1>
-        <p class="base-font-size">Mam na imię Rafał Rogoda i moją pasją jest programowanie oraz wszystko, co z tym związane, na przykład historia branży IT. Całkiem nieźle programować nauczyłem się już w 2 klasie technikum i od tamtej pory byłem już na 100% pewny, że chcę być programistą. W przyszłości chciałbym zarządzać zespołem programistów, ale to może za kilka lat. O moich zainteresowaniach możesz przeczytać tutaj: <a href="{{ site.baseurl }}/zainteresowania/programowanie" class="" data-keyboard="true">Programowanie,</a> <a href="{{ site.baseurl }}/zainteresowania/motywacja" class="">Motywacja,</a> <a href="{{ site.baseurl }}/zainteresowania/gielda" class="">Gra na giełdzie</a> </p>
+        <p class="base-font-size">Mam na imię Rafał Rogoda i moją pasją jest programowanie oraz wszystko, co z tym związane, na przykład historia branży IT. Całkiem nieźle programować nauczyłem się już w 2 klasie technikum i od tamtej pory byłem już na 100% pewny, że chcę być programistą. W przyszłości chciałbym zarządzać zespołem programistów. O moich zainteresowaniach możesz przeczytać tutaj: <a href="{{ site.baseurl }}/zainteresowania/programowanie" class="" data-keyboard="true">Programowanie,</a> <a href="{{ site.baseurl }}/zainteresowania/motywacja" class="">Motywacja,</a> <a href="{{ site.baseurl }}/zainteresowania/gielda" class="">Gra na giełdzie</a> </p>
         <div class="">
         <br>
         </div>
