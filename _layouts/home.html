@@ -40,8 +40,11 @@ layout: default
     {% endfor %}
   </div>
 
+    <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="column ">
   {% if paginator.total_pages > 1 %}
-  <div class="pagination">
+  <div class="site-footer">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
       <i class="fa fa-chevron-left"></i>
@@ -56,4 +59,7 @@ layout: default
     {% endif %}
   </div>
   {% endif %}
+</div>
+</div>
+</div>
 </div>
