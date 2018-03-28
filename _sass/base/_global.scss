@@ -63,12 +63,22 @@ h4 {
     font-size: 1.15em;
 }
 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
 blockquote {
-    border-left: 2px solid darken($blockquote-color, 20%);
+    @include border-radius(5px); // apply the mixin
+    border-left: 23px solid darken($blockquote-color, 30%);
     margin: 1em 1em;
     padding: 0.75em 1em;
     background-color: $blockquote-color;
     box-shadow: 0 2px 2px $border-color;
+    color: black;
+    border-color: $header-link-color;
 }
 
 blockquote p:last-child,
