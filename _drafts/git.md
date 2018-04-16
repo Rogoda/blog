@@ -5,14 +5,58 @@ feature-img: "assets/img/drafts/git/git.jpeg"
 tags: [webdevelopment, github]
 ---
 
+<h4 class="text-success">System kontroli wersji GIT<h4>
+<br>
 <font class="base-font-size">
-&nbsp;&nbsp;&nbsp;Monocle ipsum dolor sit amet handsome pariatur aliqua, hub remarkable irure commodo classic deserunt bespoke. Sunt commodo signature, Swiss minim flat white Tsutaya excepteur artisanal et Nordic laborum joy ANA. Beams mollit exquisite Ginza efficient dolore qui Comme des Garçons Winkreative Lufthansa bulletin global. Iconic sed liveable duis. Mollit dolore eu laboris Comme des Garçons hub pintxos sed eiusmod tote bag Shinkansen nisi consectetur pariatur. Nordic international quis finest Baggu dolore, bureaux hub hand-crafted ut joy sint Airbus A380.
-
-Conversation handsome hub cosy, enim emerging sed K-pop velit Gaggenau charming proident et boulevard ryokan. Remarkable airport deserunt international est, nulla minim magna emerging discerning in exclusive dolor. Commodo dolore deserunt cosy, global Nordic culpa uniforms signature charming. Smart ryokan commodo, eiusmod global occaecat incididunt aliqua Beams. Boulevard conversation excepteur finest Swiss non veniam Comme des Garçons essential artisanal. Destination Scandinavian international, anim Boeing 787 in duis Baggu irure essential.
-
-Fugiat exclusive laborum, Gaggenau ad Winkreative sharp elit labore. Remarkable officia ryokan Boeing 787, consectetur boutique Nordic Singapore espresso elit iconic perfect izakaya soft power excepteur. Ut veniam carefully curated K-pop dolore, uniforms in voluptate. Craftsmanship Ettinger Lufthansa sophisticated esse boutique veniam exquisite. Aute cillum bespoke, intricate consectetur in exquisite international lovely bulletin irure Washlet Gaggenau deserunt. Efficient eu quality of life wardrobe labore, dolor emerging airport concierge reprehenderit izakaya dolore liveable Baggu.
-
-Commodo elegant essential consectetur Gaggenau culpa consequat id sophisticated St Moritz sunt conversation duis non velit. Nulla business class non ut Marylebone ANA soft power fugiat carefully curated. Bureaux sed punctual handsome Washlet impeccable hand-crafted aute extraordinary tote bag enim boulevard soft power sleepy. Dolore conversation irure Zürich the best adipisicing, vibrant finest hub anim premium aliqua. Cupidatat smart international, bureaux Baggu id efficient punctual. Tempor nulla flat white enim, K-pop incididunt elit efficient Toto uniforms concierge discerning. Concierge sleepy extraordinary, deserunt Melbourne commodo Nordic Winkreative Washlet Ginza exercitation espresso.
-
-Tsutaya sed in business class sharp. Do Beams in adipisicing Lufthansa. Business class occaecat Melbourne, irure Singapore commodo espresso carefully curated quis quality of life adipisicing. Impeccable laborum efficient classic proident in. Beams Helsinki ullamco Marylebone dolore sophisticated concierge Muji anim duis joy ut. Comme des Garçons aute Muji in aliquip ryokan soft power Nordic essential ANA culpa elegant.
+&nbsp;&nbsp;&nbsp;Git jest to popularny system kontroli wersji, innym popularnym systemem kontroli wersji, z którym można się spotkać jest między innymi SVN. Git jest dokładnie rozproszonym systemem kontroli wersji, dlatego jesteśmy w stanie używać oprogramowania nawet, wtedy kiedy nie mamy dostępu do internetu. W tym kolejnych artykułach na temat gita nie będę opisywał zalet gita i porównywał go z innymi systemami, chciałbym skupić się na najważniejszych funkcjonalnościach oraz nauczyć Cię czytelniku podstawowych komend i jak z niego korzystać.
 </font>
+
+<br>
+<font class="base-font-size">
+&nbsp;&nbsp;&nbsp;Git został stworzony przez słynnego Linusa Torvaldsa i jest to narzędzie, które w zamyśle miało wspierać rozwój jądra Linux. Nie wymaga korzystania z serwera, jednak istnieją takie projekty jak GitHub lub BitBucket, które umożliwiają zarządzanie zasobami na zdalnych repozytoriach. W kolejnym artykule o gicie będę wykorzystywał gita z poziomu linii komend dla Windowsa, ale warto wspomnieć, że istnieją również graficzne narzędzia pozwalające się posługiwać GIT-em osobiście miałem okazję korzystać z TortoiseGit-a oraz SourceTree. Przez lata git stał się absolutnym must have, jeżeli szukamy pracy jako programiści. Przy pomocy gita unikamy wszelkich problemów z aktualnością oprogramowania, jeżeli pracujemy w grupie programistów. Nie spotkamy się już z takim problemem, jak przypadkowe usunięcie czyjegoś kodu z firmowego FTP poprzez nadpisanie wszystkich plików.
+</font>
+<br>
+<br>
+<br>
+
+<h4 class="text-success">Jak pracować z system kontroli wersji<h4>
+<br>
+<font class="base-font-size">
+&nbsp;&nbsp;&nbsp;Po krótkim wstępie zadajesz sobie pewnie pytanie, jak pracować z systemem kontroli wersji, więc zanim przejdziemy do omówienia głównych pojęć, postaram się przedstawić proces postępowania w kilku sytuacjach, gdzie system kontroli wersji jest dla nas błogosławieństwem.
+</font>
+<br>
+<br>
+<font class="base-font-size">
+&nbsp;&nbsp;&nbsp;Pracujemy właśnie nad naszą wspaniałą aplikacją na naszym ukochanym niestety stacjonarnym komputerze. Niestety mieszkamy w Krakowie i musimy się wybrać do Warszawy na kilka dni i nie jesteśmy w stanie zabrać ze sobą komputera. W warszawie mamy drugi komputer i chcielibyśmy na nim dokończyć pracę. W takiej sytuacji przegrywamy naszą aplikację na pendrive, niestety, kiedy dotarliśmy do Warszawy, okazuje się, że nie jesteśmy w stanie kontynuować pracy, ponieważ pendrive został uszkodzony i nie jesteśmy w stanie kontynuować pracy. Jeżeli wykorzystalibyśmy gita, moglibyśmy z łatwością wrzucić wszystkie nasze pliki na zdalne repozytorium i pobrać je na drugi komputer o nic się nie martwiąc.
+</font>
+<br>
+<br>
+<font class="base-font-size">
+&nbsp;&nbsp;&nbsp;Pracujemy zdalnie i nagle nasz kolega programista potrzebuje, abyśmy przesłali wprowadzone we wspólnie tworzonym projekcie zmiany. Komfortowo wrzucamy nasze pliki na zdalny serwer, a następnie przez kilka godzin przez telefon opisujemy mu wprowadzone zmiany i pliki, które musi sobie skopiować, aby miał odpowiednią wersję. Następnie on udostępnia CI swoje pliki i ty wprowadzasz zmiany do swojej rozgrzebanej aplikacji. Jeżeli użylibyśmy Gita, system automatycznie wprowadziłby zmiany i zapytałby się Ciebie, jak rozwiązać sporne przypadki a konsultacje z drugim programistą zostałyby ograniczone do minimum.
+</font>
+<br>
+<br>
+<font class="base-font-size">
+&nbsp;&nbsp;&nbsp;Programy komputerowe potrafią sporo ważyć, szczególnie jak piszą je całe zespoły programistów. Dziesiątki gigabajtów oprogramowania, które trzeba gdzieś przechowywać, oczywiście najlepiej za każdym razem, kiedy wprowadzamy jakąś zmianę w kodzie, mieć aktualną wersję oprogramowania jednak zdarza się, że nad jednym programem pracuje kilku programistów, kiedy przychodzi dzień, w którym trzeba wszystko połączyć i wypuścić dobrze działający program można dostać prawdziwego rozstroju, ilość konfliktów jest nieprawdopodobna, o ile łatwiej by było, gdyby dało się oznaczyć wprowadzone zmiany, porównać z innymi i nie zgubić się w tym całym chaosie. Rozwiązaniem jest git, ponieważ wszystkie nowe linie kodu i wszystkie wprowadzone zmiany przez konkretnych programistów w konkretnym czasie jesteśmy w stanie w łatwy sposób sprawdzić.
+</font>
+
+<br>
+<br>
+<font class="base-font-size">
+&nbsp;&nbsp;&nbsp;Mam nadzieję, że te trzy historyjki rozjaśniają temat i dostrzegasz już, na czym polega praca z systemem kontroli wersji i w jakich sytuacjach wykorzystywanie go jest dla nas błogosławieństwem.
+</font>
+<br>
+<br>
+<br>
+
+<h4 class="text-success">Najważniejsze pojęcia<h4>
+<br>
+
+<blockquote>
+    repozytorium - 
+</blockquote>
+
+<font class="base-font-size">
+&nbsp;&nbsp;&nbsp;
+</font>
+<br>
