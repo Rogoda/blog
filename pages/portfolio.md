@@ -11,12 +11,12 @@ hide: false
  <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingOne">
       <div class="mb-0">
-        <a class="text-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h4>
+        <a class="text-success" data-toggle="collapse" data-target="#collapseLed" aria-expanded="true" aria-controls="collapseLed"><h4>
           Blog zbudowany na Jekyll
         </h4></a>
       </div>
     </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseLed" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="fancy-collapse-panel card-body">
         Jest to strona, na której obecnie się znajdujesz. Strona wykorzystuje bootstrap-darkly, który podpiąłem i dostosowałem do własnych potrzeb używając technologii sass. Chciałem, aby strona mogła być hostowana z mojego konta na github-ie dlatego do jej budowy wykorzystałem technologię jekyll.
       </div>
