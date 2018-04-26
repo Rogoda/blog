@@ -9,7 +9,7 @@ tags: [webdevelopment, sass]
 <br>
 <font class="base-font-size">
 &nbsp;&nbsp;&nbsp;Jednym z najczęściej zadawanych pytań na początku jest — czym się różni tradycyjny sass od scss. Oprócz tego, że rozszerzenie pliku jest inne, to najważniejszą różnicą jest składnia języka.
-Sass nie przypomina składni css w inaczej niż scss. W łatwy sposób przerzucisz się na scss, ponieważ ten rozumie składnie i wzbogaca ją o możliwości oferowane przez preprocesor sass. 
+Sass nie przypomina składni css inaczej niż scss. W łatwy sposób przerzucisz się na scss, ponieważ ten rozumie składnie i wzbogaca ją o możliwości oferowane przez preprocesor sass. 
 </font>
 <br>
 <br>
@@ -24,14 +24,11 @@ Sass nie przypomina składni css w inaczej niż scss. W łatwy sposób przerzuci
 <br>
 <font class="base-font-size">
 &nbsp;&nbsp;&nbsp;Startując z preprocesora Sass zwróć uwagę na rozszerzenie. *.sass to sass a *scss to scss.
-</font>
-<br>
-<font class="base-font-size">
-&nbsp;&nbsp;&nbsp;Wpadłeś już na pomysł, że można wykorzystać stary kod css, aby zyskać możliwości Sass-a, wykorzystać SCSS. O to chodziło, nie utkniesz przy przepisywaniu po prostu zaimportuj stary kod css i dodaj swoje zmiany.
+Wpadłeś już na pomysł, że można wykorzystać stary kod css, aby zyskać możliwości Sass-a, wykorzystać SCSS. O to chodziło, nie utkniesz przy przepisywaniu po prostu zaimportuj stary kod css i dodaj swoje zmiany.
 </font>
 <h4 class="text-success">Łączenie kodu SCSS i SASS<h4>
 <br>
 <font class="base-font-size">
 &nbsp;&nbsp;&nbsp;TAK, można.<br>
-Nie ma problemu sass akceptuje kod importowany z scss, więc jeżeli planujesz gruntowną rozbudowę jakiegoś molocha a myśl o przerobieniu wszystkiego od razu na scss wywołuje o dreszcze to rozluźnij się, twój problem został rozwiązany. Nowe fragmenty kodu napisz w sass, starsze zmień na scss.
+Nie ma problemu sass akceptuje kod importowany z scss, więc jeżeli planujesz gruntowną rozbudowę jakiegoś molocha a myśl o przerobieniu wszystkiego od razu na scss wywołuje dreszcze to rozluźnij się, twój problem został rozwiązany. Nowe fragmenty kodu napisz w sass, starsze zmień na scss.
 </font>
