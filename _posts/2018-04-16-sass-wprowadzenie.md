@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sass - wprowadzenie"
-feature-img: "assets/img/posts/2018-04-16-sass/sass.jpeg"
+feature-img: "assets/img/posts/2018-04-16-sass-wprowadzenie/sass.jpeg"
 tags: [webdevelopment, sass]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SASS czy SCSS"
-feature-img: "assets/img/posts/2018-04-16-sass/sass.jpeg"
+feature-img: "assets/img/posts/2018-04-22-sass-czy-scss/sass.jpeg"
 tags: [webdevelopment, sass]
 ---
 
