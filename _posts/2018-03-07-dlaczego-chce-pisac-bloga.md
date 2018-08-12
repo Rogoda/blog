@@ -2,7 +2,7 @@
 layout: post
 title: "Dlaczego chcę pisać bloga"
 feature-img: "assets/img/posts/2018-02-26-dlaczego-blog/2018-02-26-dlaczego-blog.jpeg"
-tags: [o mnie, marka]
+tags: []
 ---
 
 <font class="base-font-size">

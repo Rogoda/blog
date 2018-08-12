@@ -2,7 +2,7 @@
 layout: post
 title: "SASS czy SCSS"
 feature-img: "assets/img/posts/2018-04-22-sass-czy-scss/sass.jpeg"
-tags: [webdevelopment, sass]
+tags: [sass]
 ---
 
 <h4 class="text-success">Sassy CSS - SCSS<h4>
@@ -16,7 +16,7 @@ Sass nie przypomina składni css inaczej niż scss. W łatwy sposób przerzucisz
 <h4 class="text-success">Olej SASS pisz w SCSS<h4>
 <br>
 <font class="base-font-size">
-&nbsp;&nbsp;&nbsp;Na składni język stoi, już dzisiaj możesz pojechać do Etiopii i dogadasz się z każdym, nie znając języka, gestykulując, skacząc i wskazując palcem, dasz radę :D , ale łatwiej będzie nauczyć się podstawowych zwrotów i wyrażeń wtedy, nawet jeżeli dalej nie opanowałeś języka po mistrzowsku, to komunikacja będzie znacznie płynniejsza. Składnia Sass, znacznie przyśpiesza pisanie kodu a przy ilości pracy, jaki poświęcisz, aby stworzyć jedną z twoich stron internetowych, czytelność kodu zaskakuje. 
+&nbsp;&nbsp;&nbsp;Na składni język stoi, już dzisiaj możesz pojechać do Etiopii i dogadasz się z każdym, nie znając języka, gestykulując, skacząc i wskazując palcem, dasz radę :D , ale łatwiej będzie nauczyć się podstawowych zwrotów i wyrażeń wtedy, nawet jeżeli dalej nie opanowałeś języka po mistrzowsku, to komunikacja będzie znacznie płynniejsza. Składnia Sass, znacznie przyśpiesza pisanie kodu a przy ilości pracy, jaki poświęcisz, aby stworzyć jedną z twoich stron internetowych, czytelność kodu zaskakuje. Niestety wielu programistów presferuje nowszą wersję czyli SCSS dlatego jest ona znacznie bardziej popularna, naszczęście ona również dostarcza nam funkcjonalności pozwalające szybko pisać kod.
 </font>
 <br>
 <br>
@@ -30,5 +30,5 @@ Wpadłeś już na pomysł, że można wykorzystać stary kod css, aby zyskać mo
 <br>
 <font class="base-font-size">
 &nbsp;&nbsp;&nbsp;TAK, można.<br>
-Nie ma problemu sass akceptuje kod importowany z scss, więc jeżeli planujesz gruntowną rozbudowę jakiegoś molocha a myśl o przerobieniu wszystkiego od razu na scss wywołuje dreszcze to rozluźnij się, twój problem został rozwiązany. Nowe fragmenty kodu napisz w sass, starsze zmień na scss.
+Nie ma problemu sass akceptuje kod importowany z scss, więc jeżeli planujesz gruntowną rozbudowę jakiegoś molocha a myśl o przerobieniu wszystkiego od razu na scss wywołuje dreszcze to rozluźnij się, twój problem został rozwiązany. Poprostu znmień roszerzenie na .scss
 </font>
