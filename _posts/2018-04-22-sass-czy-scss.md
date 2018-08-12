@@ -2,7 +2,7 @@
 layout: post
 title: "SASS czy SCSS"
 feature-img: "assets/img/posts/2018-04-22-sass-czy-scss/sass.jpeg"
-tags: [sass]
+tags: [SASS]
 ---
 
 <h4 class="text-success">Sassy CSS - SCSS<h4>

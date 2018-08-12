@@ -2,7 +2,7 @@
 layout: post
 title: "Sass - wprowadzenie"
 feature-img: "assets/img/posts/2018-04-16-sass-wprowadzenie/sass.jpeg"
-tags: [sass]
+tags: [SASS]
 ---
 
 <h4 class="text-success">Syntactically awesome style sheets - SASS<h4>
