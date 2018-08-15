@@ -2,7 +2,7 @@
 layout: post
 title: "Bootstrap"
 feature-img: "assets/img/drafts/bootstrap/bootstrap.jpeg"
-tags: [webdevelopment, bootstrap]
+tags: [bootstrap]
 ---
 
 <font class="base-font-size">

@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll"
 feature-img: "assets/img/drafts/jekyll/jekyll.jpeg"
-tags: [webdevelopment]
+tags: [Inne]
 ---
 
 <font class="base-font-size">

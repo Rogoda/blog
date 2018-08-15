@@ -2,7 +2,7 @@
 layout: post
 title: "Ruby gem"
 feature-img: "assets/img/drafts/ruby-gem/ruby-gem.jpeg"
-tags: [webdevelopment, ruby]
+tags: [Inne]
 ---
 
 <font class="base-font-size">

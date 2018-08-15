@@ -2,7 +2,7 @@
 layout: post
 title: "Wzorce projektowe - wprowadzenie"
 feature-img: "assets/img/posts/2018-08-15-design-patterns/design-patterns.jpeg"
-tags: [Wzorce projektowe]
+tags: [Wzorce_projektowe]
 ---
 
 <h4 class="text-success">Doświadczenie<h4>

@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown files"
 feature-img: "assets/img/drafts/markdown-files/markdown-files.jpeg"
-tags: [webdevelopment]
+tags: [Inne]
 ---
 
 <font class="base-font-size">

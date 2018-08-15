@@ -2,7 +2,7 @@
 layout: post
 title: "Sass - instalacja"
 feature-img: "assets/img/drafts/sass-instalacja/sass.jpeg"
-tags: [webdevelopment, sass]
+tags: [SASS]
 ---
 
 <h4 class="text-success">Początek przygody z Sass-em<h4>
