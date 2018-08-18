@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wzorzce projektowe cz.1 - budowniczy"
+title: "Wzorzce projektowe cz.1 - Budowniczy"
 feature-img: "assets/img/posts/2018-08-16-budowniczy/budowniczy.jpeg"
 tags: [Wzorce_projektowe]
 ---
