@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wzorzce projektowe cz.1 - Budowniczy"
+title: "Wzorce  projektowe cz.1 - Budowniczy"
 feature-img: "assets/img/posts/2018-08-16-budowniczy/budowniczy.jpeg"
 tags: [Wzorce_projektowe]
 ---
@@ -8,7 +8,7 @@ tags: [Wzorce_projektowe]
 <h4 class="text-success">Budowniczy (Builder)<h4>
 <br>
 <p class="base-font-size">Diagram wzorca projektowego budowniczy wygląda następująco:</p>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-16-budowniczy/diagram.jpeg" alt="Diagram - budowniczy">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-16-budowniczy/diagram.jpeg" alt="Diagram - Budowniczy">
 <br>
 <font class="base-font-size">
 &nbsp;Wzorzec projektowy „Budowniczy” jest wzorcem obiektowym i należy do wzorców kreacyjnych. Budowniczy określa związek między konkretnymi sposobami tworzenia obiektów (produktów) a obiektem agregującym te sposoby symbolizującym budowniczego.
