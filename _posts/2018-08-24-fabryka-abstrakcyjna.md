@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wzorce  projektowe cz.2 - Fabryka Abstrakcyjna"
-feature-img: "assets/img/drafts/abstract-fabric/abstract-fabric.jpeg"
+feature-img: "assets/img/posts/2018-08-24-fabryka-abstrakcyjna/fabryka-abstrakcyjna.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
@@ -18,7 +18,7 @@ Oczywiście nie jest to jedyny przypadek, kiedy warto zastosować ten wzorzec pr
 <br>
 <font class="base-font-size">
 &nbsp;Na obrazku poniżej znajduje się wzorzec fabryka abstrakcyjna w formie modelu UML. Już na pierwszy rzut oka widać, że komunikacja między klientem a częścią funkcjonalną kodu odbywa się przez warstwę abstrakcji. Pozwala to bardziej skoncentrować się na implementacji funkcjonalności niż samym dostarczeniu obiektu. Jeżeli teorii masz już dosyć to czas na praktykę.
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/diagram.jpeg" alt="Diagram - Fabryka Abstrakcyjna">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/diagram.jpeg" alt="Diagram - Fabryka Abstrakcyjna">
 <br>
 <br>
 <br>
@@ -39,10 +39,10 @@ https://github.com/Rogoda/DesignPattern_AbstractFabric.git</a>
 <font class="base-font-size">
 &nbsp;W treści zadania wspomniałem, że model produkcji ma umożliwić wyprodukowanie smartphona lub notebooka, dlatego optymistycznie założyłem, że każda fabryka korzystająca z naszej procedury produkcji będzie w stanie wyprodukować coś, co później nazwiemy smartphonem lub notebookiem, niezależnie z jakich podzespołów będą składały się te urządzenia. Dlatego dla każdego typu urządzenia stworzę odpowiedni interfejs.
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/ismartphone.jpeg" alt="ISmartphone">
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/inotebook.jpeg" alt="INotebook">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/ismartphone.jpeg" alt="ISmartphone">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/inotebook.jpeg" alt="INotebook">
 <br>Idąc dalej tropem wcześniejszego wnioskowania, każda z fabryk może implementować nasz model produkcji, co automatycznie prowokuje nas do reprezentowania modelu w postaci abstrakcyjnej.  
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/irtvfabric.jpeg" alt="IRtvFabric">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/irtvfabric.jpeg" alt="IRtvFabric">
 <br>
 <br>
 </font>
@@ -52,9 +52,9 @@ https://github.com/Rogoda/DesignPattern_AbstractFabric.git</a>
 <br>
 Przydadzą nam się w fabryce.
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/smartphone.jpeg" alt="Smartphone">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/smartphone.jpeg" alt="Smartphone">
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/notebook.jpeg" alt="Notebook">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/notebook.jpeg" alt="Notebook">
 <br>
 <br>
 </font>
@@ -62,9 +62,9 @@ Przydadzą nam się w fabryce.
 <br>
 <font class="base-font-size">&nbsp;Nie śpimy tylko kodzimy, myślę, że lepiej zademonstrujemy funkcjonalność modelu, tworząc nie jedną a dwie implementacje fabryki, jedną w Chinach druga w Korei.
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/chinesefabric.jpeg" alt="Fabric - China">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/chinesefabric.jpeg" alt="Fabric - China">
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/koreanfabric.jpeg" alt="Fabric - Korea">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/koreanfabric.jpeg" alt="Fabric - Korea">
 <br>
 &nbsp;Dla każdej fabryki dostosowałem indywidualny sposób wytworzenia naszych urządzeń, zbadaj dokładnie jak to możliwe, ponieważ tu kryje się cała magia abstrakcyjnej fabryki.
 <br>
@@ -73,10 +73,10 @@ Przydadzą nam się w fabryce.
 <h4 class="text-success">Klient<h4>
 <br>
 <font class="base-font-size">&nbsp;Ostatnim krokiem jest użycie wzorca
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/program.jpeg" alt="Klient">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/program.jpeg" alt="Klient">
 <br>Użyłem różnych fabryk do stworzenia nowych obiektów, czyli wykorzystaliśmy kreacyjny wzorzec projektowy a oto rezultat naszej pracy:
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/abstract-fabric/cmd.jpeg" alt="Cmd">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018-08-24-fabryka-abstrakcyjna/cmd.jpeg" alt="Cmd">
 <br>
 <br>
 </font>
