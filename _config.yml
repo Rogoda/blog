@@ -16,7 +16,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-    <div><br><br><br><br><br><br></div> 
+    <h1><br>Blog na temat programowania<br><br><br><br></h1> 
   header_text_feature_image: assets/img/blog/feature-img.jpeg
   footer_text: >
    <p class="font-footer text-success">Można mnie również znaleźć na:</p>

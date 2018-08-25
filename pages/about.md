@@ -12,8 +12,19 @@ about: "assets/img/about"
     <div class="row">
     <div class="col-md-12">
         <h1 class="text-success"></h1>
-        <p class="base-font-size">Mam na imię Rafał Rogoda i jestem pasjonatem programowania, kocham wszystko, co jest związane z programowaniem i technologiami. Krótka i niewiarygodnie wciągająca historia branży IT, technologi i związanych z nią wydarzeń, które dosłownie zmieniły losy świata. Wydarzenia opisane w książkach i przedstawiane w filmach dokumentalnych wciągają mnie dogłębnie, smakuję każda ciekawą historię i staram się zrozumieć, jak przed moim urodzeniem wyglądała komputeryzacja. Prawdziwa szkoła programowania to 2 klasa technikum, wtedy byłem już na 100% pewny, będę programistą. Chcę zarządzać zespołem programistów i kiedyś będę. O moich zainteresowaniach, o tym, co mnie kręci napisałem tutaj:  <a href="{{ site.baseurl }}/zainteresowania/programowanie" class="" data-keyboard="true">Programowanie,</a> <a href="{{ site.baseurl }}/zainteresowania/motywacja" class="">Motywacja,</a> <a href="{{ site.baseurl }}/zainteresowania/gielda" class="">Gra na giełdzie</a> </p>
+        <p class="base-font-size">
+        &nbsp;Mam na imię Rafał Rogoda i jestem pasjonatem programowania, kocham wszystko, co jest związane z programowaniem i technologiami.
+        <br>
+        <br>
+        &nbsp;Krótka i niewiarygodnie wciągająca historia branży IT, technologi i związanych z nią wydarzeń, które dosłownie zmieniły losy świata. Wydarzenia opisane w książkach i przedstawiane w filmach dokumentalnych wciągają mnie dogłębnie, smakuję każda ciekawą historię i staram się zrozumieć, jak przed moim urodzeniem wyglądała komputeryzacja.
+        <br>
+        <br>
+        &nbsp;Prawdziwa szkoła programowania to 2 klasa technikum, wtedy byłem już na 100% pewny, będę programistą. Chcę zarządzać zespołem programistów i kiedyś będę.
+        <br>
+        <br>
+        &nbsp;O moich zainteresowaniach, o tym, co mnie kręci napisałem tutaj:  <a href="{{ site.baseurl }}/zainteresowania/programowanie" class="" data-keyboard="true">Programowanie,</a> <a href="{{ site.baseurl }}/zainteresowania/motywacja" class="">Motywacja,</a> <a href="{{ site.baseurl }}/zainteresowania/gielda" class="">Gra na giełdzie</a> </p>
         <div class="">
+        <br>
         <br>
         </div>
     </div>
