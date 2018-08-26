@@ -3,11 +3,12 @@ baseurl: ""
 url: "rrogoda.pl"
 language: "pl-pl"
 description: "Osobista strona internetowa, na której prezentuje swoje umiejętności oraz dzielę się zdobytą wiedzą." # used by search engines
+title: "Programowanie"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: >
+  title: "Rafał Rogoda"
 
   avatar: assets/img/LOGO.png
   favicon: assets/favicon.ico
@@ -93,6 +94,7 @@ interests: [
   img: ../assets/img/interests/motivation/feature-img-min.jpeg
   }]
 collections:
+  default:
     output: true
     permalink: /:collection/:name
 
@@ -102,6 +104,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
