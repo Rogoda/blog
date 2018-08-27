@@ -1,7 +1,7 @@
 ﻿# SITE CONFIGURATION
 baseurl: ""
 url: "http://rrogoda.pl"
-language: "pl-pl"
+language: "pl"
 description: "Osobista strona internetowa, na której prezentuje swoje umiejętności oraz dzielę się zdobytą wiedzą." # used by search engines
 title: "Programowanie"
 
