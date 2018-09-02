@@ -1,0 +1,13 @@
+---
+label: post template
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  description: name of the template layout
+  config:
+    required: true
+  default: post
+  hidden: true
