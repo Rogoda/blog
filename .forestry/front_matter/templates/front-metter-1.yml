@@ -4,7 +4,7 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: layout
+  default: page
   name: layout
   label: layout
   description: post layout
@@ -12,7 +12,7 @@ fields:
   config:
     required: true
 - type: text
-  default: Title
+  default: my title
   label: title
   name: title
   description: page title
