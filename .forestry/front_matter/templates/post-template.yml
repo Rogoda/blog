@@ -11,3 +11,9 @@ fields:
     required: true
   default: post
   hidden: true
+- type: text
+  name: Title
+  label: title
+  description: Title of the post
+  config:
+    required: true
