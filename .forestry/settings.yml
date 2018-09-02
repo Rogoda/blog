@@ -19,4 +19,4 @@ upload_dir: assets/img/drafts
 public_path: "/assets/img/posts"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":year:/:month:/::year:-:month:-:day:-filename:/:filename:"
+file_template: ":year:/:month:/::year:-:month:-:day:-:filename:"
