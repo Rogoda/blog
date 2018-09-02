@@ -1,5 +1,5 @@
 ---
-label: Front Metter 1
+label: post
 hide_body: false
 is_partial: false
 fields:
@@ -26,5 +26,10 @@ fields:
   hidden: true
   config:
     maxSize: '10'
+- type: tag_list
+  name: tags
+  label: tags
+  description: post tags
+  hidden: true
 pages:
 - _posts/test.md
