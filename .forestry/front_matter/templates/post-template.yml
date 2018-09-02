@@ -25,3 +25,7 @@ fields:
   default: "/assets/img/posts/2018/09/markdown-files.jpeg"
   config:
     maxSize: '250'
+- type: tag_list
+  name: tags
+  label: tags
+  description: Post tag
