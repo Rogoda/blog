@@ -1,0 +1,13 @@
+---
+label: Front Metter 1
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: Title
+  label: title
+  name: title
+  description: page title
+  hidden: true
+  config:
+    required: true
