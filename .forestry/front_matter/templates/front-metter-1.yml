@@ -4,17 +4,17 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: page
-  name: layout
+  default: post
+  name: post
   label: layout
   description: post layout
   hidden: true
   config:
     required: true
 - type: text
-  default: my title
+  default: post template
   label: title
-  name: title
+  name: post_template
   description: page title
   hidden: true
   config:
