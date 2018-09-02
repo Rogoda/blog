@@ -11,5 +11,12 @@ fields:
   hidden: true
   config:
     required: true
+- type: file
+  label: feature-image
+  name: feature-img
+  description: main post image
+  hidden: true
+  config:
+    maxSize: '10'
 pages:
 - _posts/test.md
