@@ -32,4 +32,5 @@ fields:
   description: post tags
   hidden: true
 pages:
+- _default/test.md
 - _posts/test.md
