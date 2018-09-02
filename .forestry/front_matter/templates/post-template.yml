@@ -18,5 +18,3 @@ fields:
   config:
     required: true
   default: '"Title"'
-pages:
-- _posts/2018-09-02-test.md
