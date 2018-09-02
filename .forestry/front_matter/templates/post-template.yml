@@ -19,4 +19,4 @@ fields:
     required: true
   default: '"Title"'
 pages:
-- _posts/test.md
+- _posts/2018-09-02-test.md
