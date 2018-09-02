@@ -18,3 +18,10 @@ fields:
   config:
     required: true
   default: '"Title"'
+- type: file
+  label: feature-img
+  name: feature-img
+  description: Main post image
+  default: "/assets/img/posts/2018/09/markdown-files.jpeg"
+  config:
+    maxSize: '250'
