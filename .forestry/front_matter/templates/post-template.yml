@@ -18,3 +18,5 @@ fields:
   config:
     required: true
   default: '"Title"'
+pages:
+- _posts/test.md
