@@ -31,3 +31,5 @@ fields:
   label: tags
   description: post tags
   hidden: true
+pages:
+- _posts/test.md
