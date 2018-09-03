@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sass - instalacja"
-feature-img: "assets/img/drafts/sass-instalacja/sass.jpeg"
+feature-img: "assets/img/uploads/sass.jpeg"
 tags: [SASS]
 ---
 

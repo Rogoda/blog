@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wzorce projektowe kreacyjne - Podsumowanie"
-feature-img: "assets/img/drafts/wzorce-kreacyjne/wzorce-kreacyjne.jpeg"
+feature-img: "assets/img/uploads/wzorce-kreacyjne.jpeg"
 tags: [Wzorce_projektowe]
 ---
 

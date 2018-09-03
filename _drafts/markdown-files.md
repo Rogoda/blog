@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Markdown files"
-feature-img: "assets/img/drafts/markdown-files/markdown-files.jpeg"
+feature-img: "assets/img/uploads/markdown-files.jpeg"
 tags: [Inne]
 ---
 

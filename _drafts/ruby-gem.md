@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby gem"
-feature-img: "assets/img/drafts/ruby-gem/ruby-gem.jpeg"
+feature-img: "assets/img/uploads/ruby-gem.jpeg"
 tags: [Inne]
 ---
 

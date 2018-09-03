@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wzorce projektowe cz.4 - Prototyp"
-feature-img: "assets/img/drafts/prototype/prototype.jpeg"
+feature-img: "assets/img/uploads/prototype.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
@@ -12,7 +12,7 @@ tags: [Wzorce_projektowe]
 <br>
 Prototyp jest to wzorzec kreacyjny, obiektowy i za pomocą modelu UML przedstawimy go następująco:
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/prototype/diagram.jpeg" alt="Diagram - Prototyp">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/uploads/diagram-prototype.jpeg" alt="Diagram - Prototyp">
 <br>
 <br>
 </font>
@@ -33,7 +33,7 @@ W ćwiczeniu stworzymy drukarnię, która po otrzymaniu oryginału książki jes
 <font class="base-font-size">
 &nbsp;Prototypem jest dla nas książka, każda książka posiada między innymi tytuł oraz teść i przede wszystkim każdą książkę możemy w rzeczywistości skopiować.
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/prototype/ibook.jpeg" alt="IBook">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/uploads/ibook.jpeg" alt="IBook">
 <br>
 <br>
 </font>
@@ -42,7 +42,7 @@ W ćwiczeniu stworzymy drukarnię, która po otrzymaniu oryginału książki jes
 <font class="base-font-size">
 &nbsp;Skoro mówimy o drukowaniu, to myślę, że najlepiej będzie sięgnąć do korzeni, znacie historię Biblii Gutenberga ?!
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/prototype/goodbook.jpeg" alt="GoodBook">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/uploads/goodbook.jpeg" alt="GoodBook">
 <br>
 Jak powszechnie wiadomo, są różne wersje pisma świętego, dlatego pozostawiam w tej kwestii dowolność. Najważniejsza kwestia to sposób kopiowania to on jest kluczowym punktem tego wzorca projektowego.
 <br>
@@ -51,10 +51,10 @@ Jak powszechnie wiadomo, są różne wersje pisma świętego, dlatego pozostawia
 <h4 class="text-success">Drukarnia<h4>
 <br>
 <font class="base-font-size">
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/prototype/program.jpeg" alt="GoodBook">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/uploads/program-prototype.jpeg" alt="GoodBook">
 &nbsp;Nakład 10 sztuk, w rezultacie dostajemy wszystkie książki.
 <br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/drafts/prototype/cmd.jpeg" alt="CMD">
+<img class="img-fluid img-thumbnail" src="../../../assets/img/uploads/cmd-prototype.jpeg" alt="CMD protorype">
 <br>
 <br>
 </font>

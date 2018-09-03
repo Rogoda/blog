@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "post template"
-feature-img: "assets/img/drafts/post-template/post-template.jpeg"
+feature-img: "assets/img/uploads/post-template.jpeg"
 tags: [tag]
 ---
 

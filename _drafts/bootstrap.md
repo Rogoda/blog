@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bootstrap"
-feature-img: "assets/img/drafts/bootstrap/bootstrap.jpeg"
+feature-img: "assets/img/uploads/bootstrap.jpeg"
 tags: [bootstrap]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll"
-feature-img: "assets/img/drafts/jekyll/jekyll.jpeg"
+feature-img: "assets/img/uploads/jekyll.jpeg"
 tags: [Inne]
 ---
 
