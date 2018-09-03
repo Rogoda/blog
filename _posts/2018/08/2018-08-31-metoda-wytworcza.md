@@ -2,7 +2,7 @@
 layout: post
 title: "Wzorce projektowe cz.3 - Metoda Wytwórcza"
 feature-img: "assets/img/posts/2018/08/2018-08-31-fabric-method/fabric-method.jpeg"
-tags: [Wzorce_projektowe],
+tags: [Wzorce_projektowe]
 ---
 
 <h4 class="text-success">Metoda wytwórcza (Factory Method)<h4>
