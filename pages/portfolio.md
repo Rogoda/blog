@@ -5,6 +5,7 @@ subtitle: "<br><br>"
 permalink: portfolio
 feature-img: "assets/img/portfolio/feature-img.jpeg"
 hide: false
+description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przeglądniesz projekty, w które wykonałem i w których miałem udział."
 ---
 <div>
  <div id="accordion">

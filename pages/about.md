@@ -5,6 +5,7 @@ subtitle: "<br><br>"
 permalink: omnie
 feature-img: "assets/img/about/feature-img.jpeg"
 about: "assets/img/about"
+description: "Mam na imię Rafał Rogoda i jestem pasjonatem programowania, kocham wszystko, co jest związane z programowaniem i technologiami"
 --- 
 
 
