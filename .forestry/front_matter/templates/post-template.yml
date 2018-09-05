@@ -29,5 +29,3 @@ fields:
   name: tags
   label: tags
   description: Post tag
-pages:
-- _posts/test-post.md
