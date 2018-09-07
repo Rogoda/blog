@@ -5,6 +5,12 @@ language: "pl"
 description: "Osobista strona internetowa, na której prezentuje swoje umiejętności oraz dzielę się zdobytą wiedzą." # used by search engines
 title: "Programowanie"
 
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
