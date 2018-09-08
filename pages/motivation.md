@@ -1,7 +1,6 @@
 --- 
 layout: page 
 title : Motywacja 
-subtitle: "<br><br>"
 permalink: /zainteresowania/motywacja
 feature-img: "assets/img/interests/motivation/feature-img.jpeg"
 hide: true

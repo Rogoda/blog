@@ -30,7 +30,8 @@ Link do mojego githuba znajdziesz na dole, taki przycisk z ośmiorniczką :D
 <br>
 </font>
 
-```python
-print("Hello World")
-```
+{% highlight yaml %}
+x = ('a', 1, False)
+{% endhighlight %}
+
 

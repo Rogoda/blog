@@ -1,7 +1,6 @@
 --- 
 layout: page 
 title : Portfolio 
-subtitle: "<br><br>"
 permalink: portfolio
 feature-img: "assets/img/portfolio/feature-img.jpeg"
 hide: false

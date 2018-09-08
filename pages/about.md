@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "O mnie"
-subtitle: "<br><br>"
 permalink: omnie
 feature-img: "assets/img/about/feature-img.jpeg"
 about: "assets/img/about"

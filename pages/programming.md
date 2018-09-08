@@ -1,7 +1,6 @@
 --- 
 layout: page 
 title : Programowanie 
-subtitle: "<br><br>"
 permalink: /zainteresowania/programowanie
 feature-img: "assets/img/interests/programming/feature-img.jpeg"
 hide: true

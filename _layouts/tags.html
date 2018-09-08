@@ -26,72 +26,79 @@ layout: page
 
 <footer><h4>Wybierz interesujący cię tag aby znaleść powiązane z nim posty :)</h4></footer>
 <!-- Displays the list of tags-->
-{% include tags_list.html tags=rawtags %}
+    {% include tags_list.html tags=rawtags %}
 
     <!-- Displays the posts and pages that contains the tag-->
     <div class="posts">
         {% for tag in tags %}
-            <div class="border border-primary rounded">
+            <div class="fancy-collapse-panel card border border-primary rounded">
 
-                <h4 id="{{ tag | cgi_escape }}" class="tag-anchor">
-                    <a href="#{{ tag | cgi_escape }}"><i class="fa fa-tag fa-fw"></i>{{ tag }}</a>
-                    <a href="#{{ page.title }}" style="float: right"><i class="fa fa-chevron-up" aria-hidden="true"> </i> </a>
-                    
+                <h4 id="{{ tag | cgi_escape }}" 
+                class="card-header tag-anchor"
+                >
+                    <a 
+                    data-toggle="collapse" 
+                    data-target="#{{ tag }}content" 
+                    aria-expanded="true"
+                    href="#{{ tag | cgi_escape }}"><i class="fa fa-tag fa-fw"></i>{{ tag }}</a>
                 </h4>
                 
                 <!-- Posts and collection for each tags -->
-                <div class="tag-posts border-top border-success">
+                <div id="{{ tag }}content" class="collapse show">
+                    <div class="tag-posts border-top border-success">
+
+                            <br/>
+                        
+                        <!-- Pages -->
+                        {% for page in site.pages %} 
+                        {% if page.tags contains tag %}
+                        <h5 class="tag-title">
+                            <a href="{{ page.url | prepend: site.baseurl }}">
+                                <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                                {{ page.title }}
+                            </a>
+                            
+                            <div class="meta mr-3">
+                                {{ "dzisiaj" | date: "%d/%m/%Y" }}
+                            </div>
+                        </h5>
+                        {% endif %} 
+                        {% endfor %} 
+                        
+                        <!-- Posts -->
+                        {% for post in site.posts %} 
+                        {% if post.tags contains tag %}
+                        <h5 class="tag-title">
+                            <a href="{{ post.url | prepend: site.baseurl }}">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                {{ post.title }}
+                            </a>
+                            
+                            <div class="meta mr-3">
+                                {{ post.date | date: "%d/%m/%Y" }}
+                            </div>
+                        </h5>
+                        {% endif %} 
+                        {% endfor %} 
+                        
+                        <!-- Portfolio -->
+                        {% for note in site.portfolio %} 
+                        {% if note.tags contains tag %}
+                        <h5 class="tag-title">
+                            <a href="{{ site.baseurl }}{{ note.url }}">
+                                <i class="fa fa-file-o" aria-hidden="true"></i>
+                                {{ note.title }}
+                            </a>
+                            
+                            <div class="meta mr-3">
+                                {{ note.date | date: "%d/%m/%Y" }}
+                            </div>
+                        </h5>
+                        {% endif %} 
+                        {% endfor %}
+                        
                         <br/>
-                    
-                    <!-- Pages -->
-                    {% for page in site.pages %} 
-                    {% if page.tags contains tag %}
-                    <h5 class="tag-title">
-                        <a href="{{ page.url | prepend: site.baseurl }}">
-                            <i class="fa fa-file-image-o" aria-hidden="true"></i>
-                            {{ page.title }}
-                        </a>
-                        
-                        <div class="meta">
-                            {{ "dzisiaj" | date: "%d/%m/%Y" }}
-                        </div>
-                    </h5>
-                    {% endif %} 
-                    {% endfor %} 
-                    
-                    <!-- Posts -->
-                    {% for post in site.posts %} 
-                    {% if post.tags contains tag %}
-                    <h5 class="tag-title">
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            <i class="fa fa-file-text-o" aria-hidden="true"></i>
-                            {{ post.title }}
-                        </a>
-                        
-                        <div class="meta">
-                            {{ post.date | date: "%d/%m/%Y" }}
-                        </div>
-                    </h5>
-                    {% endif %} 
-                    {% endfor %} 
-                    
-                    <!-- Portfolio -->
-                    {% for note in site.portfolio %} 
-                    {% if note.tags contains tag %}
-                    <h5 class="tag-title">
-                        <a href="{{ site.baseurl }}{{ note.url }}">
-                            <i class="fa fa-file-o" aria-hidden="true"></i>
-                            {{ note.title }}
-                        </a>
-                        
-                        <div class="meta">
-                            {{ note.date | date: "%d/%m/%Y" }}
-                        </div>
-                    </h5>
-                    {% endif %} 
-                    {% endfor %}
-                    
-                    <br/>
+                    </div>
                 </div>
             </div>
                     <br/>

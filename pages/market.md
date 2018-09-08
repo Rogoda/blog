@@ -1,7 +1,6 @@
 --- 
 layout: page 
 title : Giełada 
-subtitle: "<br><br>"
 permalink: /zainteresowania/gielda
 feature-img: "assets/img/interests/market/feature-img.jpeg"
 hide: true
