@@ -1,7 +1,7 @@
----
+﻿---
 layout: post
 title: Wzorce projektowe kreacyjne - Podsumowanie
-feature-img: assets/img/uploads/wzorce-kreacyjne.jpeg
+feature-img: assets/img/posts/2018/09/2018-09-21-wzorce-kreacyjne/wzorce-kreacyjne.jpeg
 tags:
 - Wzorce_projektowe
 
