@@ -24,5 +24,4 @@ fields:
   hidden: false
   default: ''
 pages:
-- _default/bc.md
 - _posts/forestry-post.md
