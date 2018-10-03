@@ -1,31 +1,27 @@
 ---
-label: post template
+label: Default template
 hide_body: false
 is_partial: false
 fields:
-- type: text
-  name: layout
-  label: layout
-  description: name of the template layout
-  config:
-    required: true
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
   default: post
-  hidden: true
-- type: text
-  name: Title
-  label: title
-  description: Title of the post
-  config:
-    required: true
-  default: '"Title"'
-- type: file
-  label: feature-img
-  name: feature-img
-  description: Main post image
-  default: "/assets/img/posts/2018/09/markdown-files.jpeg"
-  config:
-    maxSize: '250'
-- type: tag_list
-  name: tags
-  label: tags
-  description: Post tag
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: feature-img
+  label: Feature img
+  type: file
+  hidden: false
+  default: ''
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: ''
+pages:
+- _posts/forestry-demo.md
