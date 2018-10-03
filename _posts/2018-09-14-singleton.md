@@ -11,8 +11,7 @@ tags: [Wzorce_projektowe]
 &nbsp;Wzorzec projektowy singleton jest ostatnim wzorcem kreacyjnym, jaki znajduje się w naszym zestawieniu. Należy on do grupy obiektowych i jest to jednym z najbardziej charakterystycznym wzorców. Dlatego nie tracąc czasu, przechodzimy do przykładu.
 
 Kod wykorzystany w przykładzie możesz łatwo ściągnąć z tond:
-<a class="base-font-size" href="https://github.com/Rogoda/DesignPattern_Singleton.git">
-https://github.com/Rogoda/DesignPattern_Singleton.git</a>
+[https://github.com/Rogoda/DesignPattern_Singleton.git](https://github.com/Rogoda/DesignPattern_Singleton.git)
 
 
 
@@ -33,7 +32,7 @@ Podobnie jak w życiu, jest tylko jeden wzorcowy czas i każdy nowy zegar jest u
 &nbsp;Dokładnie taki przykład wspólnie zaimplementujemy. Najpierw zachęcam cię jednak do zapoznania się z diagramem klas wzorca Singleton:
 
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/diagram-singleton.jpeg" alt="Diagram - Singleton">
+![Diagram - Singleton](/assets/img/uploads/diagram-singleton.jpeg)
 
 Proste, tworzy instancję samego siebie.
 
@@ -48,7 +47,7 @@ Teraz przykład:
 
 Na samym początku czas:
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/itimer.jpeg" alt="ITimer">
+![ITimer](/assets/img/uploads/itimer.jpeg)
 
 
 
@@ -58,7 +57,7 @@ Na samym początku czas:
 &nbsp;Ponieważ pierwszy zegar jest jedyny w swoim rodzaju i nie chcemy więcej takich zegarów, to nie tworzymy dla niego abstrakcji, jedyne co ma wspólnego z innymi zegarami to to, że jest czasomierzem, implementacja wygląda następująco:
 
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/firstclock.jpeg" alt="firstclock">
+![firstclock](/assets/img/uploads/firstclock.jpeg)
 
 
 
@@ -67,7 +66,7 @@ Na samym początku czas:
 
 &nbsp;Każdy zegar jest czasomierzem i powinien być ustawiany na podstawie pierwszego czasomierza.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/clock.jpeg" alt="Clock">
+![Clock](/assets/img/uploads/clock.jpeg)
 
 
 # Klient
@@ -75,11 +74,11 @@ Na samym początku czas:
 
 &nbsp;Zastosujmy przykład w praktyce, zgodnie z planem na pierwszy ogień idzie wzorcowy czasomierz, na podstawie tego czasomierza stworzyłem dziesięć zegarów, które pobierają instancje pierwszego, wzorcowego czasomierza, aby ustawić własny czas.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/program-singleton.jpeg" alt="Klient">
+![Klient](/assets/img/uploads/program-singleton.jpeg)
 
 
 Rezultat poniżej:
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/cmd-singleton.jpeg" alt="CMD singleton">
+![CMD singleton](/assets/img/uploads/cmd-singleton.jpeg)
 
 

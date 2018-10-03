@@ -11,9 +11,7 @@ tags: [NoSQL]
 &nbsp;W sytuacji, kiedy coś mnie ogranicza, robię „to, co tygrysy lubią najbardziej”. W zależności od potrzeby skorzystam z innego rozwiązania, najpierw omówimy obecnie stosowane rozwiązania dokładnie według tabelki. Ponieważ tygrysy najbardziej lubią skakać to przeskoczymy tam od razu :D
 
 
-> 
-
-Klasyfikacja i ocena Bena Scofielda
+> Klasyfikacja i ocena Bena Scofielda
 <table class="table">
   <thead>
     <tr>

@@ -19,7 +19,7 @@ Oczywiście nie jest to jedyny przypadek, kiedy warto zastosować ten wzorzec pr
 
 &nbsp;Na obrazku poniżej znajduje się wzorzec fabryka abstrakcyjna w formie modelu UML. Już na pierwszy rzut oka widać, że komunikacja między klientem a częścią funkcjonalną kodu odbywa się przez warstwę abstrakcji. Pozwala to bardziej skoncentrować się na implementacji funkcjonalności niż samym dostarczeniu obiektu. Jeżeli teorii masz już dosyć to czas na praktykę.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/fabryka-abstrakcyjna-diagram.jpeg" alt="Diagram - Fabryka Abstrakcyjna">
+![Diagram - Fabryka Abstrakcyjna](/assets/img/uploads/fabryka-abstrakcyjna-diagram.jpeg)
 
 
 
@@ -29,8 +29,7 @@ Oczywiście nie jest to jedyny przypadek, kiedy warto zastosować ten wzorzec pr
 
 &nbsp;Przykładową implementację tego wzorca znajdziesz tutaj:
 
-<a class="base-font-size" href="https://github.com/Rogoda/DesignPattern_AbstractFabric.git">
-https://github.com/Rogoda/DesignPattern_AbstractFabric.git</a>
+[https://github.com/Rogoda/DesignPattern_AbstractFabric.git](https://github.com/Rogoda/DesignPattern_AbstractFabric.git)
 Polecenie do przykładu: Stwórz model produkcji smartphonów i notebooków, który będzie można łatwo wróżyć w różnych fabrykach.
 
 
@@ -40,13 +39,13 @@ Polecenie do przykładu: Stwórz model produkcji smartphonów i notebooków, kt�
 
 &nbsp;W treści zadania wspomniałem, że model produkcji ma umożliwić wyprodukowanie smartphona lub notebooka, dlatego optymistycznie założyłem, że każda fabryka korzystająca z naszej procedury produkcji będzie w stanie wyprodukować coś, co później nazwiemy smartphonem lub notebookiem, niezależnie z jakich podzespołów będą składały się te urządzenia. Dlatego dla każdego typu urządzenia stworzę odpowiedni interfejs.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/ismartphone.jpeg" alt="ISmartphone">
+![ISmartphone](/assets/img/uploads/ismartphone.jpeg)
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/inotebook.jpeg" alt="INotebook">
+![INotebook](/assets/img/uploads/inotebook.jpeg)
 
 Idąc dalej tropem wcześniejszego wnioskowania, każda z fabryk może implementować nasz model produkcji, co automatycznie prowokuje nas do reprezentowania modelu w postaci abstrakcyjnej. 
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/irtvfabric.jpeg" alt="IRtvFabric">
+![IRtvFabric](/assets/img/uploads/irtvfabric.jpeg)
 
 
 
@@ -56,9 +55,9 @@ Myślę, że to odpowiedni czas na implementacje naszych wirtualnych urządzeń.
 
 Przydadzą nam się w fabryce.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/smartphone.jpeg" alt="Smartphone">
+![Smartphone](/assets/img/uploads/smartphone.jpeg)
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/notebook.jpeg" alt="Notebook">
+![Notebook](/assets/img/uploads/notebook.jpeg)
 
 
 
@@ -66,9 +65,9 @@ Przydadzą nam się w fabryce.
 
 &nbsp;Nie śpimy tylko kodzimy, myślę, że lepiej zademonstrujemy funkcjonalność modelu, tworząc nie jedną a dwie implementacje fabryki, jedną w Chinach druga w Korei.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/chinesefabric.jpeg" alt="Fabric - China">
+![Fabric - China](/assets/img/uploads/chinesefabric.jpeg)
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/koreanfabric.jpeg" alt="Fabric - Korea">
+![Fabric - Korea](/assets/img/uploads/koreanfabric.jpeg)
 
 &nbsp;Dla każdej fabryki dostosowałem indywidualny sposób wytworzenia naszych urządzeń, zbadaj dokładnie jak to możliwe, ponieważ tu kryje się cała magia abstrakcyjnej fabryki.
 
@@ -78,10 +77,10 @@ Przydadzą nam się w fabryce.
 
 &nbsp;Ostatnim krokiem jest użycie wzorca
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/fabryka-abstrakcyjna-program.jpeg" alt="Klient">
+![Klient](/assets/img/uploads/fabryka-abstrakcyjna-program.jpeg)
 
 Użyłem różnych fabryk do stworzenia nowych obiektów, czyli wykorzystaliśmy kreacyjny wzorzec projektowy a oto rezultat naszej pracy:
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/fabryka-abstrakcyjna-cmd.jpeg" alt="Cmd">
+![Cmd](/assets/img/uploads/fabryka-abstrakcyjna-cmd.jpeg)
 
 

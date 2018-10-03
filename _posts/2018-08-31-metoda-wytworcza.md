@@ -12,7 +12,7 @@ tags: [Wzorce_projektowe]
 
 Wzorce klasowe w przeciwieństwie do obiektowych przedstawiają stałe związki między klasami, dlatego nie musisz zastanawiać się jak użyć wzorca w projekcie, ponieważ podkreślam jeszcze raz, związki są stałe.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/budowniczy-diagram.jpeg" alt="Diagram - Metoda Wytwórcza">
+![Diagram - Metoda Wytwórcza](/assets/img/uploads/budowniczy-diagram.jpeg)
 
  Rozwiążmy wspólnie zadanie: Stwórz kosz, do którego będziemy mogli wrzucać owoce.
 
@@ -23,8 +23,7 @@ Wzorce klasowe w przeciwieństwie do obiektowych przedstawiają stałe związki 
 
 &nbsp;Polecenie wspomina o koszu i o owocach, koszem będzie lista owoców a owoce, które będziemy do niego wrzucać, będziemy tworzyć, korzystając ze wzorca metody wytwórczej. Kod wykorzystany w przykładzie jest dostępny tutaj:
 
-<a class="base-font-size" href="https://github.com/Rogoda/DesignPattern_FabricMethod.git">
-https://github.com/Rogoda/DesignPattern_FabricMethod.git</a>
+[https://github.com/Rogoda/DesignPattern_FabricMethod.git](https://github.com/Rogoda/DesignPattern_FabricMethod.git)</a>
 
 
 
@@ -33,7 +32,7 @@ https://github.com/Rogoda/DesignPattern_FabricMethod.git</a>
 
 &nbsp;Na wstępie zadałem sobie pytanie, jakie owoce powinny być dostępne i doszedłem do wniosku, że ciekawym rozwiązaniem będzie zorganizować sobie wszystkie owoce za pomocą enuma
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/fruitname.jpeg" alt="FruitName">
+![FruitName](/assets/img/uploads/fruitname.jpeg)
 
 
 
@@ -42,21 +41,21 @@ https://github.com/Rogoda/DesignPattern_FabricMethod.git</a>
 
 &nbsp;Panie i Panowie przedstawiam wam abstrakcje:
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/ifruit.jpeg" alt="IFruit">
+![IFruit](/assets/img/uploads/ifruit.jpeg)
 
 &nbsp;Nic wielkiego każdy owoc będzie zawierał nazwę. Podobne rozwiązanie zastosowaliśmy w poprzednich wzorcach.
 Potrzebny jest nam kreator, w tym celu utworzymy sklep.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/ishop.jpeg" alt="IShop">
+![IShop](/assets/img/uploads/ishop.jpeg)
 
 
 
 # Pora przejść do konkretów
 
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/fruit.jpeg" alt="Fruit">
+![Fruit](/assets/img/uploads/fruit.jpeg)
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/shop.jpeg" alt="Shop">
+![Shop](/assets/img/uploads/shop.jpeg)
 
 &nbsp;Ciekawe rozwiązanie prawda, świetnie, teraz widzisz podobieństwo do poprzednich dwóch wzorców projektowych. Zarówno budowniczy, jak i fabryka abstrakcyjna tworzą swoje obiekty w podobny sposób, wykorzystują kreator, który posiada metodę zwracającą żądany obiekt. Tę zależność przedstawia wzorzec metoda wytwórcza. Jest to stała zależność, dlatego ten wzorzec zaliczamy do klasowych.
 
@@ -67,10 +66,10 @@ Potrzebny jest nam kreator, w tym celu utworzymy sklep.
 
 &nbsp;W ostatnim kroku utworzymy koszyk, do którego wrzucimy nasze owoce.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/budowniczy-program.jpeg" alt="Klient">
+![Klient](/assets/img/uploads/budowniczy-program.jpeg)
 
 Nasza implementacja zwraca taki oto rezultat
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/budowniczy-cmd.jpeg" alt="CMD">
+![CMD](/assets/img/uploads/budowniczy-cmd.jpeg)
 
 

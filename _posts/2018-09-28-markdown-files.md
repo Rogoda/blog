@@ -27,8 +27,7 @@ tags: [Inne]
 &nbsp;Jeżeli zadałeś sobie właśnie pytanie, dlaczego nie działać w HTML już na starcie to odpowiedź brzmi: składnia języka jest bardziej przystępna, Markdown jest znacznie bardziej przystępny, dokument stworzymy znacznie szybciej i wygodniej, spróbuj sam, to wciąga.
 
 
-&nbsp;Więcej informacji znajdziesz u źródła:<a class="base-font-size" href="https://www.markdownguide.org/">
-https://www.markdownguide.org/</a> na poleconej przeze mnie stronie znajdziesz świetne przykłady i dokumentację.
+&nbsp;Więcej informacji znajdziesz u źródła: [https://www.markdownguide.org/"](https://www.markdownguide.org/) na poleconej przeze mnie stronie znajdziesz świetne przykłady i dokumentację.
 
 
 

@@ -24,10 +24,10 @@ tags: [Wzorce_projektowe]
 
 &nbsp;Życie jest surowym nauczycielem. Pewna firma zaprosiła mnie do wzięcia udziału w rozmowie rekrutacyjnej, w CV które do nich wysłałem, pochwaliłem się znajomością wzorców projektowych i byłem święcie przekonany, że opanowałem materiał, naprawdę znałem wzorce i przykłady ich wykorzystania. Niestety dostałem zadanie praktyczne, dostrzegłem, jak głęboka jest przepaść między teorią a praktyką. Jak się domyślasz, nie podołałem zadaniu, chciałem zastosować wszystkie wzorce naraz, podczas gdy zadanie wymagało zastosowania zwykłego budowniczego. Wzorce podzielono ze względu na kategorie i rodzaj. Koniecznie opanuj ten podział, aby wzorce objawiły Ci się w odpowiednim kontekście. 
 
- <br/>
- <br/>
-<blockquote class="base-font-size">
-    <p>Rodzaje wzorców:</p>
+ 
+ 
+<blockquote>
+    Rodzaje wzorców:
     <ol>
         <li>
         Kreacyjne (konstrukcyjne)
@@ -40,9 +40,9 @@ tags: [Wzorce_projektowe]
         </li>
     </ol>
 </blockquote >
-<br/>
-<blockquote class="base-font-size">
-    <p>Kategorie wzorców:</p>
+
+<blockquote>
+    Kategorie wzorców:
     <ol>
         <li>
         Klasowe — opisujące statyczne związki pomiędzy klasami.
@@ -52,21 +52,21 @@ tags: [Wzorce_projektowe]
         </li>
     </ol>
 </blockquote >
-<br/>
+
 
 &nbsp;Pierwszy podział jest ze względu na przeznaczenie wzorca. Dla przykładu, kiedy naszym celem jest implementacja sposobu tworzenia obiektów, wykorzystamy wzorce kreacyjne. Odsuń w takim wypadku inne wzorce na bok i weź pod lupę te wzorce kreacyjne, ponieważ sprawdzą się idealnie w tym przypadku.
 
-<br/>
-<br/>
+
+
 
 &nbsp;Drugi podział odnosi się do kategorii. Wzorce ogólnie rzecz biorąc, opisują relacje, istotne jest to, że relacje występują na różnych poziomach. Poziomy relacji to właśnie kategorie.
 
-<br/>
-<br/>
+
+
 <blockquote class="base-font-size">
-<p>Podsumowanie:
-</p>
-<p>&nbsp;Wzorce klasowe opisują relacje statyczne, czyli opis jak powinna zostać napisana klasa, aby była zgodna ze wzorcem.
-</p>
-<p>&nbsp;Wzorce obiektowe opisują dynamiczne relacje, czyli są to zasadniczo wskazówki implementacyjne, aby relacja między obiektami powstała w odpowiedni sposób.</p>
-<br/>
+Podsumowanie:
+
+&nbsp;Wzorce klasowe opisują relacje statyczne, czyli opis jak powinna zostać napisana klasa, aby była zgodna ze wzorcem.
+
+&nbsp;Wzorce obiektowe opisują dynamiczne relacje, czyli są to zasadniczo wskazówki implementacyjne, aby relacja między obiektami powstała w odpowiedni sposób.
+

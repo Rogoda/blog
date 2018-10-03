@@ -15,7 +15,7 @@ tags:
 
 
 <blockquote class="base-font-size">
-    <p>Lista omówionych już wzorców kreacyjnych:</p>
+    Lista omówionych już wzorców kreacyjnych:
     <ol>
         <li>
             Budowniczy - Tworzenie ponad implementację,

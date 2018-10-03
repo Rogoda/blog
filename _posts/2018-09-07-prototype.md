@@ -12,7 +12,7 @@ tags: [Wzorce_projektowe]
 
 Prototyp jest to wzorzec kreacyjny, obiektowy i za pomocą modelu UML przedstawimy go następująco:
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/diagram-prototype.jpeg" alt="Diagram - Prototyp">
+![Diagram - Prototyp](/assets/img/uploads/diagram-prototype.jpeg)
 
 
 
@@ -21,8 +21,7 @@ Prototyp jest to wzorzec kreacyjny, obiektowy i za pomocą modelu UML przedstawi
 
 &nbsp;Czym byłby opis wzorca bez przykładu, kod wykorzystany w poniższym ćwiczeniu znajdziesz tutaj:
 
-<a class="base-font-size" href="https://github.com/Rogoda/DesignPattern_Prototype.git">
-https://github.com/Rogoda/DesignPattern_Prototype.git</a>
+[https://github.com/Rogoda/DesignPattern_Prototype.git](https://github.com/Rogoda/DesignPattern_Prototype.git)
 
 W ćwiczeniu stworzymy drukarnię, która po otrzymaniu oryginału książki jest w stanie wykonać jej kopię.   
 
@@ -33,7 +32,7 @@ W ćwiczeniu stworzymy drukarnię, która po otrzymaniu oryginału książki jes
 
 &nbsp;Prototypem jest dla nas książka, każda książka posiada między innymi tytuł oraz teść i przede wszystkim każdą książkę możemy w rzeczywistości skopiować.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/ibook.jpeg" alt="IBook">
+![IBook](/assets/img/uploads/ibook.jpeg)
 
 
 
@@ -42,7 +41,7 @@ W ćwiczeniu stworzymy drukarnię, która po otrzymaniu oryginału książki jes
 
 &nbsp;Skoro mówimy o drukowaniu, to myślę, że najlepiej będzie sięgnąć do korzeni, znacie historię Biblii Gutenberga ?!
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/goodbook.jpeg" alt="GoodBook">
+![GoodBook](/assets/img/uploads/goodbook.jpeg)
 
 Jak powszechnie wiadomo, są różne wersje pisma świętego, dlatego pozostawiam w tej kwestii dowolność. Najważniejsza kwestia to sposób kopiowania to on jest kluczowym punktem tego wzorca projektowego.
 
@@ -51,10 +50,10 @@ Jak powszechnie wiadomo, są różne wersje pisma świętego, dlatego pozostawia
 # Drukarnia
 
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/program-prototype.jpeg" alt="GoodBook">
+![GoodBook](/assets/img/uploads/program-prototype.jpeg)
 
 &nbsp;Nakład 10 sztuk, w rezultacie dostajemy wszystkie książki.
 
-<img class="img-fluid img-thumbnail" src="/assets/img/uploads/cmd-prototype.jpeg" alt="CMD protorype">
+![CMD protorype](/assets/img/uploads/cmd-prototype.jpeg)
 
 

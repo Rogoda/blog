@@ -44,10 +44,10 @@ Między poszczególnymi sprzedawcami a ich rewirem istnieje relacja.
 
 
 > 
-RDBMS - Relational Database Management System, jest to zestaw programów służących do korzystania z bazy danych opartej na modelu relacyjnym. <a class="base-font-size" href="https://pl.wikipedia.org/wiki/System_zarz%C4%85dzania_relacyjn%C4%85_baz%C4%85_danych">Więcej</a>
+RDBMS - Relational Database Management System, jest to zestaw programów służących do korzystania z bazy danych opartej na modelu relacyjnym. [Więcej](https://pl.wikipedia.org/wiki/System_zarz%C4%85dzania_relacyjn%C4%85_baz%C4%85_danych)
 
 
-Big data – termin odnoszący się do dużych, zmiennych i różnorodnych zbiorów danych, których przetwarzanie i analiza jest trudna, ale jednocześnie wartościowa. <a class="base-font-size" href="https://pl.wikipedia.org/wiki/Big_data">Więcej</a>
+Big data – termin odnoszący się do dużych, zmiennych i różnorodnych zbiorów danych, których przetwarzanie i analiza jest trudna, ale jednocześnie wartościowa. [Więcej](https://pl.wikipedia.org/wiki/Big_data)
 
 
 
