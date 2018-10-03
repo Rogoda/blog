@@ -75,25 +75,27 @@ a.button {
     padding: 0;
     
     }
+
+    
     .fancy-collapse-panel .card-header a {
-    padding: 12px 35px 12px 15px;
-    display: inline-block;
-    width: 100%;
-    position: relative;
-    text-decoration: none;
+        padding: 12px 35px 12px 15px;
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        text-decoration: none;
     }
     .fancy-collapse-panel .card-header a:after {
-    font-family: "FontAwesome";
-    content: "\f147";
-    position: absolute;
-    right: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    top: 50%;
-    line-height: 1;
-    margin-top: -10px;
+        font-family: "FontAwesome";
+        content: "\f147";
+        position: absolute;
+        right: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        top: 50%;
+        line-height: 1;
+        margin-top: -10px;
     }
     
     .fancy-collapse-panel .card-header a.collapsed:after {
-    content: "\f196";
+        content: "\f196";
     }

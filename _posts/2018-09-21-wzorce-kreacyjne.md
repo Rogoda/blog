@@ -14,25 +14,13 @@ tags:
 
 
 
-<blockquote class="base-font-size">
+<blockquote>
     Lista omówionych już wzorców kreacyjnych:
-    <ol>
-        <li>
-            Budowniczy - Tworzenie ponad implementację,
-        </li>
-        <li>
-            Fabryka abstrakcyjna - Implementacja ponad tworzenie,
-        </li>
-        <li>
-            Metoda wytwórcza - Uniwersalny sposób tworzenia,
-        </li>
-        <li>
-            Prototyp - Tworzenie za pomocą klonowania,
-        </li>
-        <li>
-            Singleton - Obiekt tworzący sam siebie,
-        </li>
-    </ol>
+    1. Budowniczy - Tworzenie ponad implementację,
+    2. Fabryka abstrakcyjna - Implementacja ponad tworzenie,
+    3. Metoda wytwórcza - Uniwersalny sposób tworzenia,
+    4. Prototyp - Tworzenie za pomocą klonowania,
+    5. Singleton - Obiekt tworzący sam siebie,
 </blockquote >
 
   

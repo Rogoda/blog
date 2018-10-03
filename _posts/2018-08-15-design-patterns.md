@@ -28,29 +28,15 @@ tags: [Wzorce_projektowe]
  
 <blockquote>
     Rodzaje wzorców:
-    <ol>
-        <li>
-        Kreacyjne (konstrukcyjne)
-        </li>
-        <li>
-        Strukturalne
-        </li>
-        <li>
-        Czynnościowe (behawioralne, operacyjne)
-        </li>
-    </ol>
+    1. Kreacyjne (konstrukcyjne)
+    2.Strukturalne
+    3.Czynnościowe (behawioralne, operacyjne)
 </blockquote >
 
 <blockquote>
     Kategorie wzorców:
-    <ol>
-        <li>
-        Klasowe — opisujące statyczne związki pomiędzy klasami.
-        </li>
-        <li>
-        Obiektowe — opisujące dynamiczne związki pomiędzy obiektami.
-        </li>
-    </ol>
+    1.Klasowe — opisujące statyczne związki pomiędzy klasami.
+    2.Obiektowe — opisujące dynamiczne związki pomiędzy obiektami.
 </blockquote >
 
 
@@ -63,7 +49,7 @@ tags: [Wzorce_projektowe]
 
 
 
-<blockquote class="base-font-size">
+<blockquote>
 Podsumowanie:
 
 &nbsp;Wzorce klasowe opisują relacje statyczne, czyli opis jak powinna zostać napisana klasa, aby była zgodna ze wzorcem.
