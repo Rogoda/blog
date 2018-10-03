@@ -32,9 +32,7 @@ Opisany przeze mnie powrót do przeszłości nie oznacza, że nierelacyjne bazy 
 
 W kolejnych wpisach omówię różne rodzaje nierelacyjnych baz danych, dalej wprowadzę Cię w fascynujący świat MongoDB. Przed kolejną częścią chciałbym, abyś poznał dwie definicje:
 
-> RDBMS - Relational Database Management System, jest to zestaw programów służących do korzystania z bazy danych opartej na modelu relacyjnym.
-
-> [https://pl.wikipedia.org/wiki/System_zarz%C4%85dzania_relacyjn%C4%85_baz%C4%85_danych](https://pl.wikipedia.org/wiki/System_zarz%C4%85dzania_relacyjn%C4%85_baz%C4%85_danych "Więcej")
+> RDBMS - Relational Database Management System, jest to zestaw programów służących do korzystania z bazy danych opartej na modelu relacyjnym. [https://pl.wikipedia.org/wiki/System_zarz%C4%85dzania_relacyjn%C4%85_baz%C4%85_danych](https://pl.wikipedia.org/wiki/System_zarz%C4%85dzania_relacyjn%C4%85_baz%C4%85_danych "Więcej")
 >
 > Big data – termin odnoszący się do dużych, zmiennych i różnorodnych  zbiorów danych, których przetwarzanie i analiza jest trudna, ale jednocześnie wartościowa. 
 >
