@@ -24,7 +24,7 @@ layout: page
 {% assign rawtags = rawtags | append:page_tags %}
 {% endfor %}    
 
-<footer><h4>Wybierz interesujący cię tag aby znaleść powiązane z nim posty :)</h4></footer>
+<footer>Wybierz interesujący cię tag aby znaleść powiązane z nim posty :)</footer>
 <!-- Displays the list of tags-->
     {% include tags_list.html tags=rawtags %}
 
@@ -41,7 +41,7 @@ layout: page
                     data-target="#{{ tag }}content" 
                     aria-expanded="true"
                     href="#{{ tag | cgi_escape }}"><i class="fa fa-tag fa-fw"></i>{{ tag }}</a>
-                </h4>
+                
                 
                 <!-- Posts and collection for each tags -->
                 <div id="{{ tag }}content" class="collapse show">

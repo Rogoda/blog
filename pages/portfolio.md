@@ -11,9 +11,9 @@ description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przegl
  <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingOne">
       <div class="mb-0">
-        <a class="text-success" data-toggle="collapse" data-target="#collapseLed" aria-expanded="true" aria-controls="collapseLed"><h4>
+        <a class="text-success" data-toggle="collapse" data-target="#collapseLed" aria-expanded="true" aria-controls="collapseLed">
           Blog zbudowany na Jekyll
-        </h4></a>
+        </a>
       </div>
     </div>
     <div id="collapseLed" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
@@ -25,9 +25,9 @@ description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przegl
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingOne">
       <div class="mb-0">
-        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><h4>
+        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Portfolio ASP.NET
-        </h4></a>
+        </a>
       </div>
     </div>
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -39,9 +39,9 @@ description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przegl
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingTwo">
       <div class="mb-0">
-        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><h4>
+        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Projekt pokoju w przestrzeni 3D
-        </h4></a>
+        </a>
       </div>
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -53,9 +53,9 @@ description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przegl
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingThree">
       <div class="mb-0">
-        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h4>
+        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Aplikacja pogodowa na Androida
-        </h4></a>
+        </a>
       </div>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -67,9 +67,9 @@ description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przegl
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingFour">
       <div class="mb-0">
-        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><h4>
+        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Konwerter jednostek napisany w Xamarin
-        </h4></a>
+        </a>
       </div>
     </div>
     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
@@ -81,9 +81,9 @@ description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przegl
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingFive">
       <div class="mb-0">
-        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><h4>
+        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
           Aplikacja do zarządzania i edycji plików
-        </h4></a>
+        </a>
       </div>
     </div>
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
@@ -95,9 +95,9 @@ description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przegl
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingSix">
       <div class="mb-0">
-        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><h4>
+        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
           Nadajnik fal radiowych oparty o Raspberry Pi
-        </h4></a>
+        </a>
       </div>
     </div>
     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
@@ -109,9 +109,9 @@ description: "Moje doświadczenie, programowanie jest moją pasją, tutaj przegl
   <div class="fancy-collapse-panel card">
     <div class="card-header" id="headingSeven">
       <div class="">
-        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><h4>
+        <a class="collapsed text-success" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
           Wewnętrzny system kontroli wersji GIT
-        </h4></a>
+        </a>
       </div>
     </div>
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">

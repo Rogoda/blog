@@ -5,10 +5,10 @@ feature-img: "assets/img/uploads/adapter.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-<h4 class="text-success">Dwa standardy<h4>
-<br>
-<font class="base-font-size">
+# Dwa standardy
+
+
 &nbsp;Ostatnim razem 
-<br>
-<br>
-</font>
+
+
+

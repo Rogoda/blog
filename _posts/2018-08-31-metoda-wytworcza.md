@@ -1,77 +1,76 @@
 ---
 layout: post
 title: "Wzorce projektowe cz.3 - Metoda Wytwórcza"
-feature-img: "assets/img/posts/2018/08/2018-08-31-fabric-method/fabric-method.jpeg"
+feature-img: "assets/img/uploads/fabric-method.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-<h4 class="text-success">Metoda wytwórcza (Factory Method)<h4>
-<br>
-<font class="base-font-size">
+# Metoda wytwórcza (Factory Method)
+
+
 &nbsp;Pierwszy wzorzec klasowy w naszej serii nazywany jest metodą wytwórczą i jest zaliczany to wzorców kreacyjnych.
-<br>
+
 Wzorce klasowe w przeciwieństwie do obiektowych przedstawiają stałe związki między klasami, dlatego nie musisz zastanawiać się jak użyć wzorca w projekcie, ponieważ podkreślam jeszcze raz, związki są stałe.
-<br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018/08/2018-08-31-fabric-method/diagram.jpeg" alt="Diagram - Metoda Wytwórcza">
-<br>
+
+<img class="img-fluid img-thumbnail" src="/assets/img/uploads/budowniczy-diagram.jpeg" alt="Diagram - Metoda Wytwórcza">
+
  Rozwiążmy wspólnie zadanie: Stwórz kosz, do którego będziemy mogli wrzucać owoce.
-<br>
-<br>
-</font>
-<h4 class="text-success">Przykład<h4>
-<br>
-<font class="base-font-size">
+
+
+
+# Przykład
+
+
 &nbsp;Polecenie wspomina o koszu i o owocach, koszem będzie lista owoców a owoce, które będziemy do niego wrzucać, będziemy tworzyć, korzystając ze wzorca metody wytwórczej. Kod wykorzystany w przykładzie jest dostępny tutaj:
-<br>
+
 <a class="base-font-size" href="https://github.com/Rogoda/DesignPattern_FabricMethod.git">
 https://github.com/Rogoda/DesignPattern_FabricMethod.git</a>
-<br>
-<br>
-</font>
-<h4 class="text-success">Jakie owoce ?<h4>
-<br>
-<font class="base-font-size">
+
+
+
+# Jakie owoce ?
+
+
 &nbsp;Na wstępie zadałem sobie pytanie, jakie owoce powinny być dostępne i doszedłem do wniosku, że ciekawym rozwiązaniem będzie zorganizować sobie wszystkie owoce za pomocą enuma
-<br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018/08/2018-08-31-fabric-method/fruitname.jpeg" alt="FruitName">
-<br>
-<br>
-</font>
-<h4 class="text-success">Miejsce dla abstrakcji<h4>
-<br>
-<font class="base-font-size">
+
+<img class="img-fluid img-thumbnail" src="/assets/img/uploads/fruitname.jpeg" alt="FruitName">
+
+
+
+# Miejsce dla abstrakcji
+
+
 &nbsp;Panie i Panowie przedstawiam wam abstrakcje:
-<br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018/08/2018-08-31-fabric-method/ifruit.jpeg" alt="IFruit">
-<br>
+
+<img class="img-fluid img-thumbnail" src="/assets/img/uploads/ifruit.jpeg" alt="IFruit">
+
 &nbsp;Nic wielkiego każdy owoc będzie zawierał nazwę. Podobne rozwiązanie zastosowaliśmy w poprzednich wzorcach.
 Potrzebny jest nam kreator, w tym celu utworzymy sklep.
-<br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018/08/2018-08-31-fabric-method/ishop.jpeg" alt="IShop">
-<br>
-<br>
-</font>
-<h4 class="text-success">Pora przejść do konkretów<h4>
-<br>
-<font class="base-font-size">
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018/08/2018-08-31-fabric-method/fruit.jpeg" alt="Fruit">
-<br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018/08/2018-08-31-fabric-method/shop.jpeg" alt="Shop">
-<br>
+
+<img class="img-fluid img-thumbnail" src="/assets/img/uploads/ishop.jpeg" alt="IShop">
+
+
+
+# Pora przejść do konkretów
+
+
+<img class="img-fluid img-thumbnail" src="/assets/img/uploads/fruit.jpeg" alt="Fruit">
+
+<img class="img-fluid img-thumbnail" src="/assets/img/uploads/shop.jpeg" alt="Shop">
+
 &nbsp;Ciekawe rozwiązanie prawda, świetnie, teraz widzisz podobieństwo do poprzednich dwóch wzorców projektowych. Zarówno budowniczy, jak i fabryka abstrakcyjna tworzą swoje obiekty w podobny sposób, wykorzystują kreator, który posiada metodę zwracającą żądany obiekt. Tę zależność przedstawia wzorzec metoda wytwórcza. Jest to stała zależność, dlatego ten wzorzec zaliczamy do klasowych.
-<br>
-<br>
-</font>
-<h4 class="text-success">Rezultat<h4>
-<br>
-<font class="base-font-size">
+
+
+
+# Rezultat
+
+
 &nbsp;W ostatnim kroku utworzymy koszyk, do którego wrzucimy nasze owoce.
-<br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018/08/2018-08-31-fabric-method/program.jpeg" alt="Klient">
-<br>
+
+<img class="img-fluid img-thumbnail" src="/assets/img/uploads/budowniczy-program.jpeg" alt="Klient">
+
 Nasza implementacja zwraca taki oto rezultat
-<br>
-<img class="img-fluid img-thumbnail" src="../../../assets/img/posts/2018/08/2018-08-31-fabric-method/cmd.jpeg" alt="CMD">
-<br>
-<br>
-</font>
+
+<img class="img-fluid img-thumbnail" src="/assets/img/uploads/budowniczy-cmd.jpeg" alt="CMD">
+
+

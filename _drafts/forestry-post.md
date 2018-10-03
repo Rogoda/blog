@@ -2,7 +2,7 @@
 title: forestry-post
 layout: post
 date: 2018-10-03 17:52:08 +0200
-feature-img: "/assets/img/posts/markdown-files.jpeg"
+feature-img: "assets/img/uploads/markdown-files.jpeg"
 tags:
 - abc
 
@@ -25,7 +25,7 @@ Rewolucja relacyjnych baz danych na długo zmieniła horyzont, przywołując do 
 
 Co, gdyby oddzielić fragment aplikacji odpowiedzialnej za zbieranie danych od części związanej z ich porządkowaniem, uzyskam szybszy dostęp do interesującego mnie zbioru, ponieważ nie korzystam z potwornej ilości relacji. Olśnienie, jedno kliknięcie dla programisty wielki enter dla ludzkości, może wcale nie potrzebuję tych danych porządkować, nie wiem jeszcze, jak je wykorzystam. Chcę je tylko składować w miejscu, do którego mam łatwy i szybki dostęp, potrzebuję bazy danych, która nie jest oparta o relacje, nie SQL, Non SQL, NoSQL ;)
 
-![](/assets/img/posts/jekyll.jpeg)
+![](/assets/img/uploads/jekyll.jpeg)
 
 # sumowanie
 
