@@ -10,15 +10,13 @@ tags:
 
 Szczęśliwie dotarliśmy do końca pierwszej części podróży po wzorcach projektowych, wszystkie pięć wzorców, które omówiliśmy, należało do grupy wzorców kreacyjnych, dla każdego z nich znajdziesz odpowiednie zastosowanie w przeróżnych sytuacjach, pamiętaj, aby brać je pod uwagę w kontekście tworzenia nowych obiektów.
 
-> Lista omówionych już wzorców kreacyjnych: 
+> Lista omówionych już wzorców kreacyjnych:
 >
-> 1\. Budowniczy - Tworzenie ponad implementację, 2. Fabryka abstrakcyjna - Implementacja ponad tworzenie, 
->
-> 3\. Metoda wytwórcza - Uniwersalny sposób tworzenia, 
->
-> 4\. Prototyp - Tworzenie za pomocą klonowania, 
->
-> 5\. Singleton - Obiekt tworzący sam siebie, 
+> 1. Budowniczy - Tworzenie ponad implementację, 
+> 2. Fabryka abstrakcyjna - Implementacja ponad tworzenie,
+> 3. Metoda wytwórcza - Uniwersalny sposób tworzenia,
+> 4. Prototyp - Tworzenie za pomocą klonowania,
+> 5. Singleton - Obiekt tworzący sam siebie,
 
 Myślę, że tak w kilku słowach można opisać każdy z poznanych do tej pory wzorców projektowych.
 
