@@ -29,7 +29,7 @@ Pierwsze, od czego zacznę to część abstrakcyjna, zgodnie ze wzorcem ma to by
 
 Jak widzisz charakterystyczne metody dla poszczególnych kreatorów to Create, która odpowiada za utworzenie Produktu a w naszym przypadku komponentu do zestawu komputerowego oraz GetComponent, który będzie zwracał utworzony już komponent, aby mu to umożliwić, dodam do projektu klasę Component.
 
-!\[Component\] (/assets/img/uploads/component.jpeg" alt="Component">
+![Component](/assets/img/uploads/component.jpeg)
 
 Nazwa na tym etapie w zupełności wystarczy, oczywiście moglibyśmy w łatwy sposób rozszerzyć właściwości tej klasy na przykład o opis i cenę.
 
