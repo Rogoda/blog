@@ -5,7 +5,7 @@ feature-img: "assets/img/uploads/singleton.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-# Singleton
+#### Singleton
 
 
 &nbsp;Wzorzec projektowy singleton jest ostatnim wzorcem kreacyjnym, jaki znajduje się w naszym zestawieniu. Należy on do grupy obiektowych i jest to jednym z najbardziej charakterystycznym wzorców. Dlatego nie tracąc czasu, przechodzimy do przykładu.
@@ -15,7 +15,7 @@ Kod wykorzystany w przykładzie możesz łatwo ściągnąć z tond:
 
 
 
-# Przykład
+#### Przykład
 
 
 &nbsp;Zastanawiasz się pewnie, dlaczego zaczynam od przykładu, a nie od modelu UML jak mam to w zwyczaju. Wzorzec Singleton jest bardzo specyficznym wzorcem i znacznie łatwiej jest go zrozumieć, jeżeli wizja jego użycia zapadnie Ci w pamięci.
@@ -40,7 +40,7 @@ Teraz przykład:
  
 
 
-# Prawdziwy Programista puszcza Abstrakcję przodem
+#### Prawdziwy Programista puszcza Abstrakcję przodem
 
 
 &nbsp;Trochę jak z kobietami prawda ?!
@@ -51,7 +51,7 @@ Na samym początku czas:
 
 
 
-# Pierwszy zegar
+#### Pierwszy zegar
 
 
 &nbsp;Ponieważ pierwszy zegar jest jedyny w swoim rodzaju i nie chcemy więcej takich zegarów, to nie tworzymy dla niego abstrakcji, jedyne co ma wspólnego z innymi zegarami to to, że jest czasomierzem, implementacja wygląda następująco:
@@ -61,7 +61,7 @@ Na samym początku czas:
 
 
 
-# Kolejne zegary
+#### Kolejne zegary
 
 
 &nbsp;Każdy zegar jest czasomierzem i powinien być ustawiany na podstawie pierwszego czasomierza.
@@ -69,7 +69,7 @@ Na samym początku czas:
 ![Clock](/assets/img/uploads/clock.jpeg)
 
 
-# Klient
+#### Klient
 
 
 &nbsp;Zastosujmy przykład w praktyce, zgodnie z planem na pierwszy ogień idzie wzorcowy czasomierz, na podstawie tego czasomierza stworzyłem dziesięć zegarów, które pobierają instancje pierwszego, wzorcowego czasomierza, aby ustawić własny czas.

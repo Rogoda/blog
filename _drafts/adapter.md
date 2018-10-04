@@ -5,7 +5,7 @@ feature-img: "assets/img/uploads/adapter.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-# Dwa standardy
+#### Dwa standardy
 
 
 &nbsp;Ostatnim razem 

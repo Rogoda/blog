@@ -5,7 +5,7 @@ feature-img: "assets/img/uploads/nosql.jpeg"
 tags: [NoSQL]
 ---
 
-# Relacyjność i Nierelacyjność
+#### Relacyjność i Nierelacyjność
 
 
 &nbsp;Wyobraź sobie bazę danych pewnej firmy zajmującej się sprzedażą objazdową. Zakładamy, że każdy sprzedawca pracujący w tej firmie posiada z góry przydzielony obszar, na którym działa.
@@ -15,7 +15,7 @@ Między poszczególnymi sprzedawcami a ich rewirem istnieje relacja.
 
 
 
-# Nowoczesne podejście
+#### Nowoczesne podejście
 
 
 &nbsp;Historia często się powtarza, ludzie zapominają o tym, co dawniej uważane było za oczywiste i odkrywają Amerykę na nowo tak jak technologie używane do lat 70, a nawet dłużej. Teoria o relacyjnych bazach danych została opracowana, dopiero w roku 70, czyli w czasach prehistorycznych w porównaniu z dzisiejszym poziomem rozwoju technologicznego.
@@ -30,14 +30,14 @@ Między poszczególnymi sprzedawcami a ich rewirem istnieje relacja.
 
 
 
-# Podsumowanie
+#### Podsumowanie
 
 
 &nbsp;Opisany przeze mnie powrót do przeszłości nie oznacza, że nierelacyjne bazy są lepsze od relacyjnych, niekiedy relacyjność po prostu jest przeszkodą, dlatego oba podejścia są warte uwagi. Nowe podejście otworzyło drogę w kierunku BigData.
 
 
 
-# Co dalej ?
+#### Co dalej ?
 
 
 &nbsp;W kolejnych wpisach omówię różne rodzaje nierelacyjnych baz danych, dalej wprowadzę Cię w fascynujący świat MongoDB. Przed kolejną częścią chciałbym, abyś poznał dwie definicje: 

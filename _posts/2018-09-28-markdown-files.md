@@ -5,7 +5,7 @@ feature-img: "assets/img/uploads/markdown-files.jpeg"
 tags: [Inne]
 ---
 
-# Markdown files
+#### Markdown files
 
 
 &nbsp;Powszechnie znane jako pliki MD dzięki rozszerzeniu *.md . Wykorzystywane do prezentacji danych tekstowych w bogatszy i przyjazny dla oka sposób.
@@ -18,7 +18,7 @@ tags: [Inne]
 
 
 
-# Jak to działa ?
+#### Jak to działa ?
 
 
 &nbsp;Od początku, korzystanie z plików MD pozwala szybko wystylować plik, tak aby wyświetlana finalnie treść była przyjazna dla oka. Dzieje się to za pomocą programu, który interpretuje treść pliku i generuje odpowiadający treści plik html.
@@ -31,7 +31,7 @@ tags: [Inne]
 
 
 
-# Co o tym myślę ?!
+#### Co o tym myślę ?!
 
 
 &nbsp;Myślę, że ta technologia zapełnia istotną lukę między tradycyjnym, nieco skomplikowanym, HTML-owym sposobem tworzenia treści a bogatym i ciężkim edytorem tekstu i na długo zagości na rynku.

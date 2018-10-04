@@ -5,7 +5,7 @@ feature-img: "assets/img/uploads/budowniczy.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-# Budowniczy (Builder)
+#### Budowniczy (Builder)
 
 Diagram wzorca projektowego budowniczy wygląda następująco:
 ![Diagram - Budowniczy](/assets/img/uploads/budowniczy-diagram.jpeg)
@@ -15,7 +15,7 @@ Diagram wzorca projektowego budowniczy wygląda następująco:
 
 
 
-# Przykład
+#### Przykład
 
 &nbsp;Na załączonym obrazku przedstawiłem diagram UML wzorca budowniczy, dla tego wzorca stworzyłem przykładową implementację prezentującą jego zastosowanie. Implementację przykładu znajdziesz tutaj:
 [https://github.com/Rogoda/DesignPattern_Builder.git]

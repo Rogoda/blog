@@ -5,7 +5,7 @@ feature-img: "assets/img/uploads/fabric-method.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-# Metoda wytwórcza (Factory Method)
+#### Metoda wytwórcza (Factory Method)
 
 
 &nbsp;Pierwszy wzorzec klasowy w naszej serii nazywany jest metodą wytwórczą i jest zaliczany to wzorców kreacyjnych.
@@ -18,7 +18,7 @@ Wzorce klasowe w przeciwieństwie do obiektowych przedstawiają stałe związki 
 
 
 
-# Przykład
+#### Przykład
 
 
 &nbsp;Polecenie wspomina o koszu i o owocach, koszem będzie lista owoców a owoce, które będziemy do niego wrzucać, będziemy tworzyć, korzystając ze wzorca metody wytwórczej. Kod wykorzystany w przykładzie jest dostępny tutaj:
@@ -27,7 +27,7 @@ Wzorce klasowe w przeciwieństwie do obiektowych przedstawiają stałe związki 
 
 
 
-# Jakie owoce ?
+#### Jakie owoce ?
 
 
 &nbsp;Na wstępie zadałem sobie pytanie, jakie owoce powinny być dostępne i doszedłem do wniosku, że ciekawym rozwiązaniem będzie zorganizować sobie wszystkie owoce za pomocą enuma
@@ -36,7 +36,7 @@ Wzorce klasowe w przeciwieństwie do obiektowych przedstawiają stałe związki 
 
 
 
-# Miejsce dla abstrakcji
+#### Miejsce dla abstrakcji
 
 
 &nbsp;Panie i Panowie przedstawiam wam abstrakcje:
@@ -50,7 +50,7 @@ Potrzebny jest nam kreator, w tym celu utworzymy sklep.
 
 
 
-# Pora przejść do konkretów
+#### Pora przejść do konkretów
 
 
 ![Fruit](/assets/img/uploads/fruit.jpeg)
@@ -61,7 +61,7 @@ Potrzebny jest nam kreator, w tym celu utworzymy sklep.
 
 
 
-# Rezultat
+#### Rezultat
 
 
 &nbsp;W ostatnim kroku utworzymy koszyk, do którego wrzucimy nasze owoce.

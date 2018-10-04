@@ -5,21 +5,21 @@ feature-img: "assets/img/uploads/design-patterns.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-# Doświadczenie
+#### Doświadczenie
 
 
 &nbsp;Programista tworzy, tak samo, jak architekci i kucharze latami gromadząc doświadczenie. Niestety doświadczenie przychodzi z wiekiem, dlatego nie możemy się go nauczyć z książki. Wprowadzę cię teraz drogi czytelniku do pewnej historii. Za górami za lasami, żyła grupa osób znana jako Gang Czterech a była to banda doświadczonych programistów. Waleczni Koderzy opisali najznamienitsze rozwiązania błędy wyniesione z ich wieloletniej kariery. To nie bajka, naprawdę nazwali się Gang Czterech z angielskiego Gang of Four lub GoF w skrócie. Rozwiązania nazywali wzorcami projektowymi i są wykorzystywane przez niezliczoną ilość programistów na całym świecie. Nikt nie chce popełniać tych samych błędów i dostarczać klientom buble.
 
 
 
-# Wzorce
+#### Wzorce
 
 
 &nbsp;Istnieje wiele wzorców i ciągle powstają nowe, nie trzeba być jednak Sherlockiem Holmesem, aby wywnioskować, że istnieją również antywzorce, tylko te pierwsze opisują dobre praktyki. Znajomość wzorców projektowych nie sprawiła, że automatycznie zacząłem pisać idealny kod, nie zadziała tu niestety zasada COPY/PASTE. Przechodząc do sedna, nauczyłem się kodować tak, aby z projektu, który mówiąc potocznie „rzeźbię”, nie powstała jedna wielka kula błota, która do niczego się nie nadaje.
 
 
 
-# Podział wzorców
+#### Podział wzorców
 
 
 &nbsp;Życie jest surowym nauczycielem. Pewna firma zaprosiła mnie do wzięcia udziału w rozmowie rekrutacyjnej, w CV które do nich wysłałem, pochwaliłem się znajomością wzorców projektowych i byłem święcie przekonany, że opanowałem materiał, naprawdę znałem wzorce i przykłady ich wykorzystania. Niestety dostałem zadanie praktyczne, dostrzegłem, jak głęboka jest przepaść między teorią a praktyką. Jak się domyślasz, nie podołałem zadaniu, chciałem zastosować wszystkie wzorce naraz, podczas gdy zadanie wymagało zastosowania zwykłego budowniczego. Wzorce podzielono ze względu na kategorie i rodzaj. Koniecznie opanuj ten podział, aby wzorce objawiły Ci się w odpowiednim kontekście. 

@@ -5,7 +5,7 @@ feature-img: "assets/img/uploads/fabryka-abstrakcyjna.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-# Fabryka abstrakcyjna (Abstract Fabric)
+#### Fabryka abstrakcyjna (Abstract Fabric)
 
 
 &nbsp;Wzorzec projektowy zaliczany do grupy konstrukcyjnych oraz obiektowych. Kluczową różnicą w stosunku do wzorca budowniczy, który omówiłem w części pierwszej, jest nacisk na implementację funkcjonalności, a nie na samo tworzeniu obiektów. Funkcjonalności są dostarczane za pomocą interfejsów, dlatego fabryka abstrakcyjna nadaje się do implementacji w aplikacjach łączących się ze zdalnym serwerem. 
@@ -14,7 +14,7 @@ Oczywiście nie jest to jedyny przypadek, kiedy warto zastosować ten wzorzec pr
 
 
 
-# Diagram
+#### Diagram
 
 
 &nbsp;Na obrazku poniżej znajduje się wzorzec fabryka abstrakcyjna w formie modelu UML. Już na pierwszy rzut oka widać, że komunikacja między klientem a częścią funkcjonalną kodu odbywa się przez warstwę abstrakcji. Pozwala to bardziej skoncentrować się na implementacji funkcjonalności niż samym dostarczeniu obiektu. Jeżeli teorii masz już dosyć to czas na praktykę.
@@ -24,7 +24,7 @@ Oczywiście nie jest to jedyny przypadek, kiedy warto zastosować ten wzorzec pr
 
 
 
-# Praktyczne wykorzystanie wzorca
+#### Praktyczne wykorzystanie wzorca
 
 
 &nbsp;Przykładową implementację tego wzorca znajdziesz tutaj:
@@ -34,7 +34,7 @@ Polecenie do przykładu: Stwórz model produkcji smartphonów i notebooków, kt�
 
 
 
-# Część abstrakcyjna
+#### Część abstrakcyjna
 
 
 &nbsp;W treści zadania wspomniałem, że model produkcji ma umożliwić wyprodukowanie smartphona lub notebooka, dlatego optymistycznie założyłem, że każda fabryka korzystająca z naszej procedury produkcji będzie w stanie wyprodukować coś, co później nazwiemy smartphonem lub notebookiem, niezależnie z jakich podzespołów będą składały się te urządzenia. Dlatego dla każdego typu urządzenia stworzę odpowiedni interfejs.
@@ -49,7 +49,7 @@ Idąc dalej tropem wcześniejszego wnioskowania, każda z fabryk może implement
 
 
 
-# Z abstrakcyjnego smartphona nie zadzwonisz
+#### Z abstrakcyjnego smartphona nie zadzwonisz
 
 Myślę, że to odpowiedni czas na implementacje naszych wirtualnych urządzeń.
 
@@ -61,7 +61,7 @@ Przydadzą nam się w fabryce.
 
 
 
-# Mają rozmach skur...
+#### Mają rozmach skur...
 
 &nbsp;Nie śpimy tylko kodzimy, myślę, że lepiej zademonstrujemy funkcjonalność modelu, tworząc nie jedną a dwie implementacje fabryki, jedną w Chinach druga w Korei.
 
@@ -73,7 +73,7 @@ Przydadzą nam się w fabryce.
 
 
 
-# Klient
+#### Klient
 
 &nbsp;Ostatnim krokiem jest użycie wzorca
 

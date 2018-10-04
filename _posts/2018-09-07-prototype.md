@@ -5,7 +5,7 @@ feature-img: "assets/img/uploads/prototype.jpeg"
 tags: [Wzorce_projektowe]
 ---
 
-# Prototyp (Prototype)
+#### Prototyp (Prototype)
 
 
 &nbsp;Klonowanie jest to wierne kopiowanie pewnego konkretnego obiektu, taki obiekt można nazwać prototypem i tak właśnie powinniśmy myśleć o tym wzorcu projektowym. Jesteśmy w stanie utworzyć drugą identyczną instancję obecnie istniejącego obiektu.
@@ -16,7 +16,7 @@ Prototyp jest to wzorzec kreacyjny, obiektowy i za pomocą modelu UML przedstawi
 
 
 
-# Przykład
+#### Przykład
 
 
 &nbsp;Czym byłby opis wzorca bez przykładu, kod wykorzystany w poniższym ćwiczeniu znajdziesz tutaj:
@@ -27,7 +27,7 @@ W ćwiczeniu stworzymy drukarnię, która po otrzymaniu oryginału książki jes
 
 
 
-# Abstrakcja zawsze zaczyna zabawę.
+#### Abstrakcja zawsze zaczyna zabawę.
 
 
 &nbsp;Prototypem jest dla nas książka, każda książka posiada między innymi tytuł oraz teść i przede wszystkim każdą książkę możemy w rzeczywistości skopiować.
@@ -36,7 +36,7 @@ W ćwiczeniu stworzymy drukarnię, która po otrzymaniu oryginału książki jes
 
 
 
-# Pierwsza książka
+#### Pierwsza książka
 
 
 &nbsp;Skoro mówimy o drukowaniu, to myślę, że najlepiej będzie sięgnąć do korzeni, znacie historię Biblii Gutenberga ?!
@@ -47,7 +47,7 @@ Jak powszechnie wiadomo, są różne wersje pisma świętego, dlatego pozostawia
 
 
 
-# Drukarnia
+#### Drukarnia
 
 
 ![GoodBook](/assets/img/uploads/program-prototype.jpeg)
