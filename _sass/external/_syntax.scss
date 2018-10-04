@@ -16,8 +16,14 @@ figure.highlight {
     border-radius: $border-radius;
     > pre,
     pre.highlight {
+        @media (min-width: 601px) {
+            font-size: 0.9375rem;
+          }
+        @media (max-width: 600px) {
+        font-size: 1.05rem;
+        }
         margin: 0;
-        padding: 1em
+        padding: 1em;
     }
 }
 
