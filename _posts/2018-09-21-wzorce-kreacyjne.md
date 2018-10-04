@@ -12,7 +12,7 @@ Szczęśliwie dotarliśmy do końca pierwszej części podróży po wzorcach pro
 
 > Lista omówionych już wzorców kreacyjnych:
 >
-> 1. Budowniczy - Tworzenie ponad implementację, 
+> 1. Budowniczy - Tworzenie ponad implementację,
 > 2. Fabryka abstrakcyjna - Implementacja ponad tworzenie,
 > 3. Metoda wytwórcza - Uniwersalny sposób tworzenia,
 > 4. Prototyp - Tworzenie za pomocą klonowania,
