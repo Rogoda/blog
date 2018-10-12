@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "NoSQL - Rodzaje nierelacyjnych baz danych"
-feature-img: "assets/img/uploads/nosql-types.jpeg"
-tags: [NoSQL]
----
+title: NoSQL - Rodzaje nierelacyjnych baz danych
+feature-img: assets/img/uploads/nosql-types.jpeg
+tags:
+- NoSQL
 
+---
 #### Podejście praktyczne
 
 
@@ -114,6 +115,4 @@ Neo4j jest bazą zaliczaną do grupy baz NoSQL, która kładzie nacisk na związ
 #### Krok naprzód
 
 
-&nbsp;Podczas tworzenia aplikacji napotykamy wiele problemów, dlatego warto poznać różne ciekawe rozwiązania i jestem pewny, że nierelacyjne bazy danych są kluczową technologią oraz wielkim krokiem naprzód. Każda baza NoSQL jest ciekawą opcją i ma swoje zastosowanie, często niezastąpione, gwarantujące sukces.   
-
-
+&nbsp;Podczas tworzenia aplikacji napotykamy wiele problemów, dlatego warto poznać różne ciekawe rozwiązania i jestem pewny, że nierelacyjne bazy danych są kluczową technologią oraz wielkim krokiem naprzód. Każda baza NoSQL jest ciekawą opcją i ma swoje zastosowanie, często niezastąpione, gwarantujące sukces.
