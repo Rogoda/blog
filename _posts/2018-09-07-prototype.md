@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Prototyp - Wzorce projektowe C# cz.4 '
+title: 'Zastosujmy wzorzec Prototyp - Wzorce projektowe C# cz.4 '
 feature-img: assets/img/uploads/prototype.jpeg
 tags:
 - Wzorce_projektowe
