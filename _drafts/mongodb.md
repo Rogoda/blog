@@ -6,11 +6,11 @@ tags:
 - NoSQL
 
 ---
-Jak zacząć przygodę z MongoDB  
+#### Jak zacząć przygodę z MongoDB
   
 Ulewa, sobotni wieczór,  siedziałem właśnie w kuchni przy herbacie, która jak zwykle stygła obok  rozgrzanego komputera, jeden łyk i piękna myśl eksplodowała w mojej  głowie, "jak działa mongodb" wbiłem w przeglądarkę w nadziei na znalezienie jak największej ilości informacji. W tym wpisie podzielę się wynikami research-u.  
   
-Kiedy MongoDB  
+#### Kiedy MongoDB
   
 Mongo  jest bazą typu dokumentowego, to oznacza, że śmiało możesz ją użyć w  niewielkiej aplikacji, wymarzona do zarządzania treścią na stronie  internetowej, zyskujesz bardzo szybką i darmową alternatywę dla  tradycyjnego SQL-a. Zestawienie wszystkich typów baz danych znajdziesz w  innym artykule.  
   
@@ -20,12 +20,12 @@ Nierelacyjne  bazy danych są bardzo przyjemne, wystarczy otworzyć się na nowy
   
 Hugh, to bardzo dużo informacji w tak nie wielu słowach, lekko nie ma skoro wiemy już jak zacząć z mongodb warto się dowiedzieć jak mongodb działa ?  
   
-Mongodb jak działa ?  
+#### Mongodb jak działa ?
   
 Niestety  tworzenie aplikacji to nie bajka nie wystarczy zainstalować i odpalić,  naszym głównym celem jest zmusić aplikacje do działania. Mongodb działa, dopiero kiedy nasz aplikacja nawiąże połączenie z bazą danych, a jeśli dożycimy do tego jeszcze potrzebę napisania testów to szybko można dojść do wniosku, że mongo-csharp-driver nie jest idealnym rozwiązaniem. Mongo2Go to jedno z rozwiązań, nad którymi warto się pochylić => [https://github.com/Mongo2Go](https://github.com/Mongo2Go "https://github.com/Mongo2Go")  
   
-Podsumowując  
-  
+#### Podsumowując
+
 Zdaję  sobie sprawę Drogi Czytelniku, że temat rozgrzebałem i pozostawiam Cię z  mnóstwem pytań, z drugiej strony moim zadaniem było odpowiedzieć Ci na pytanie, jak zacząć z mongodb dlatego pełny opis działania znajdziesz tak gdzie każdy informatyk prędzej czy później musi zaglądnąć, z dokumentacji :)  
   
 [https://docs.mongodb.com/](https://docs.mongodb.com/ "https://docs.mongodb.com/")
