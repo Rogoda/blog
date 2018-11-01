@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Singleton co to znaczy i dlaczego jest antywzorcem - Wzorce projektowe cz.5
+title: Singleton co to znaczy i dlaczego jest antywzorcem - Wzorce projektowe C# cz.5
 feature-img: assets/img/uploads/singleton.jpeg
 tags:
 - Wzorce_projektowe
